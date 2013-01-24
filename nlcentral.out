@@ -1,0 +1,20 @@
+Start City: Austin
+Start Date: 6/8/13
+Start Day: 70
+FOUND - Iteration 5 - 16 days - getting back on 6/24/13
+  Austin {Chicago - Wrigley} 6/8/13 Travel time: 2 Wait time: 1
+  {Chicago - Wrigley} Pittsburgh 6/11/13 Travel time: 1 Wait time: 1
+  Pittsburgh Cincinnati 6/13/13 Travel time: 1 Wait time: 1
+  Cincinnati {St. Louis} 6/15/13 Travel time: 1 Wait time: 2
+  {St. Louis} Milwaukee 6/18/13 Travel time: 1 Wait time: 3
+  Milwaukee Austin 6/22/13 Travel time: 2
+
+Done.
+Austin {Chicago - Wrigley} 6/8/13 Travel time: 2 Wait time: 1
+{Chicago - Wrigley} Pittsburgh 6/11/13 Travel time: 1 Wait time: 1
+Pittsburgh Cincinnati 6/13/13 Travel time: 1 Wait time: 1
+Cincinnati {St. Louis} 6/15/13 Travel time: 1 Wait time: 2
+{St. Louis} Milwaukee 6/18/13 Travel time: 1 Wait time: 3
+Milwaukee Austin 6/22/13 Travel time: 2
+Home on 6/24/13
+Total Traversals: 325

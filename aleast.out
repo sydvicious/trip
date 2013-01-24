@@ -1,0 +1,28 @@
+Start City: Austin
+Start Date: 6/8/13
+Start Day: 70
+FOUND - Iteration 5 - 17 days - getting back on 6/25/13
+  Austin Baltimore 6/8/13 Travel time: 3 Wait time: 1
+  Baltimore {St. Petersburg} 6/12/13 Travel time: 2 Wait time: 1
+  {St. Petersburg} Boston 6/15/13 Travel time: 3 Wait time: 1
+  Boston {The Bronx} 6/19/13 Travel time: 0 Wait time: 1
+  {The Bronx} Toronto 6/20/13 Travel time: 1 Wait time: 1
+  Toronto Austin 6/22/13 Travel time: 3
+
+FOUND - Iteration 70 - 16 days - getting back on 6/24/13
+  Austin {St. Petersburg} 6/8/13 Travel time: 3 Wait time: 1
+  {St. Petersburg} Baltimore 6/12/13 Travel time: 2 Wait time: 1
+  Baltimore Toronto 6/15/13 Travel time: 1 Wait time: 2
+  Toronto Boston 6/18/13 Travel time: 1 Wait time: 1
+  Boston {The Bronx} 6/20/13 Travel time: 0 Wait time: 1
+  {The Bronx} Austin 6/21/13 Travel time: 3
+
+Done.
+Austin {St. Petersburg} 6/8/13 Travel time: 3 Wait time: 1
+{St. Petersburg} Baltimore 6/12/13 Travel time: 2 Wait time: 1
+Baltimore Toronto 6/15/13 Travel time: 1 Wait time: 2
+Toronto Boston 6/18/13 Travel time: 1 Wait time: 1
+Boston {The Bronx} 6/20/13 Travel time: 0 Wait time: 1
+{The Bronx} Austin 6/21/13 Travel time: 3
+Home on 6/24/13
+Total Traversals: 325

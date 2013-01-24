@@ -1,0 +1,20 @@
+Start City: Austin
+Start Date: 6/8/13
+Start Day: 70
+FOUND - Iteration 5 - 18 days - getting back on 6/26/13
+  Austin {Los Angeles} 6/8/13 Travel time: 2 Wait time: 1
+  {Los Angeles} {San Diego} 6/11/13 Travel time: 0 Wait time: 2
+  {San Diego} Denver 6/13/13 Travel time: 2 Wait time: 2
+  Denver {San Francisco} 6/17/13 Travel time: 3 Wait time: 1
+  {San Francisco} Phoenix 6/21/13 Travel time: 1 Wait time: 2
+  Phoenix Austin 6/24/13 Travel time: 2
+
+Done.
+Austin {Los Angeles} 6/8/13 Travel time: 2 Wait time: 1
+{Los Angeles} {San Diego} 6/11/13 Travel time: 0 Wait time: 2
+{San Diego} Denver 6/13/13 Travel time: 2 Wait time: 2
+Denver {San Francisco} 6/17/13 Travel time: 3 Wait time: 1
+{San Francisco} Phoenix 6/21/13 Travel time: 1 Wait time: 2
+Phoenix Austin 6/24/13 Travel time: 2
+Home on 6/26/13
+Total Traversals: 325

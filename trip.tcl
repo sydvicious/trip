@@ -12,6 +12,9 @@ proc get_property {dictionary key} {
     return [lindex [array get $dictionary $key] 1]
 }
 
+set distance_file "distances.tab"
+set schedule_file "schedule.tab"
+
 proc parse_args {} {
   global argc
   global argv
@@ -168,7 +171,15 @@ proc get_travel_time {from to} {
 }
 
 proc get_wait_time {from to day} {
-  return [get_property $to [expr [get_travel_time $from $to] + $day]]
+  global num_entries
+  
+  set dest_day [expr [get_travel_time $from $to] + $day]
+  if {$dest_day >= $num_entries} {
+    set result "x"
+  } else {
+    set result [get_property $to [expr [get_travel_time $from $to] + $day]]
+  }
+  return $result
 }
 
 proc get_time {from to day} {
@@ -248,6 +259,7 @@ proc traverse {city cities day time_so_far route_so_far} {
   global start_city
   global start_day
   global log_fd
+  global total_traversals
 
   if {[catch {set sorted_cities [lsort -command "sort_cities_by_day_and_schedule [list $city] $day" $cities]} message]} {
     puts "Something went wrong - $message"
@@ -310,7 +322,7 @@ proc traverse {city cities day time_so_far route_so_far} {
 set start_city [parse_args]
 initialize
 set best_route {}
-set best_time 82 
+set best_time  $num_entries
 set traversals 0
 set total_traversals 0
 puts "Start City: $start_city"

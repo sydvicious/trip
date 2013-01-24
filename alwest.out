@@ -1,0 +1,52 @@
+Start City: Austin
+Start Date: 6/8/13
+Start Day: 70
+FOUND - Iteration 5 - 26 days - getting back on 7/4/13
+  Austin Arlington 6/8/13 Travel time: 0 Wait time: 3
+  Arlington Anaheim 6/11/13 Travel time: 3 Wait time: 1
+  Anaheim Houston 6/15/13 Travel time: 3 Wait time: 2
+  Houston Oakland 6/20/13 Travel time: 4 Wait time: 2
+  Oakland Seattle 6/26/13 Travel time: 2 Wait time: 1
+  Seattle Austin 6/29/13 Travel time: 5
+
+FOUND - Iteration 7 - 25 days - getting back on 7/3/13
+  Austin Arlington 6/8/13 Travel time: 0 Wait time: 3
+  Arlington Anaheim 6/11/13 Travel time: 3 Wait time: 1
+  Anaheim Houston 6/15/13 Travel time: 3 Wait time: 2
+  Houston Seattle 6/20/13 Travel time: 5 Wait time: 1
+  Seattle Oakland 6/26/13 Travel time: 2 Wait time: 1
+  Oakland Austin 6/29/13 Travel time: 4
+
+FOUND - Iteration 10 - 24 days - getting back on 7/2/13
+  Austin Arlington 6/8/13 Travel time: 0 Wait time: 3
+  Arlington Anaheim 6/11/13 Travel time: 3 Wait time: 1
+  Anaheim Seattle 6/15/13 Travel time: 2 Wait time: 5
+  Seattle Oakland 6/22/13 Travel time: 2 Wait time: 2
+  Oakland Houston 6/26/13 Travel time: 4 Wait time: 2
+  Houston Austin 7/2/13 Travel time: 0
+
+FOUND - Iteration 21 - 22 days - getting back on 6/30/13
+  Austin Arlington 6/8/13 Travel time: 0 Wait time: 3
+  Arlington Houston 6/11/13 Travel time: 0 Wait time: 4
+  Houston Anaheim 6/15/13 Travel time: 3 Wait time: 1
+  Anaheim Seattle 6/19/13 Travel time: 2 Wait time: 1
+  Seattle Oakland 6/22/13 Travel time: 2 Wait time: 2
+  Oakland Austin 6/26/13 Travel time: 4
+
+FOUND - Iteration 37 - 21 days - getting back on 6/29/13
+  Austin Arlington 6/8/13 Travel time: 0 Wait time: 3
+  Arlington Oakland 6/11/13 Travel time: 3 Wait time: 1
+  Oakland Anaheim 6/15/13 Travel time: 1 Wait time: 2
+  Anaheim Seattle 6/18/13 Travel time: 2 Wait time: 2
+  Seattle Houston 6/22/13 Travel time: 5 Wait time: 2
+  Houston Austin 6/29/13 Travel time: 0
+
+Done.
+Austin Arlington 6/8/13 Travel time: 0 Wait time: 3
+Arlington Oakland 6/11/13 Travel time: 3 Wait time: 1
+Oakland Anaheim 6/15/13 Travel time: 1 Wait time: 2
+Anaheim Seattle 6/18/13 Travel time: 2 Wait time: 2
+Seattle Houston 6/22/13 Travel time: 5 Wait time: 2
+Houston Austin 6/29/13 Travel time: 0
+Home on 6/29/13
+Total Traversals: 325

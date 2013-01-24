@@ -1,0 +1,28 @@
+Start City: Austin
+Start Date: 6/8/13
+Start Day: 70
+FOUND - Iteration 5 - 15 days - getting back on 6/23/13
+  Austin {Chicago - U.S. Cellular} 6/8/13 Travel time: 2 Wait time: 1
+  {Chicago - U.S. Cellular} Minneapolis 6/11/13 Travel time: 1 Wait time: 1
+  Minneapolis Cleveland 6/13/13 Travel time: 2 Wait time: 2
+  Cleveland Detroit 6/17/13 Travel time: 0 Wait time: 1
+  Detroit {Kansas City} 6/18/13 Travel time: 1 Wait time: 3
+  {Kansas City} Austin 6/22/13 Travel time: 1
+
+FOUND - Iteration 70 - 14 days - getting back on 6/22/13
+  Austin {Kansas City} 6/8/13 Travel time: 1 Wait time: 2
+  {Kansas City} {Chicago - U.S. Cellular} 6/11/13 Travel time: 1 Wait time: 1
+  {Chicago - U.S. Cellular} Minneapolis 6/13/13 Travel time: 1 Wait time: 1
+  Minneapolis Detroit 6/15/13 Travel time: 2 Wait time: 1
+  Detroit Cleveland 6/18/13 Travel time: 0 Wait time: 2
+  Cleveland Austin 6/20/13 Travel time: 2
+
+Done.
+Austin {Kansas City} 6/8/13 Travel time: 1 Wait time: 2
+{Kansas City} {Chicago - U.S. Cellular} 6/11/13 Travel time: 1 Wait time: 1
+{Chicago - U.S. Cellular} Minneapolis 6/13/13 Travel time: 1 Wait time: 1
+Minneapolis Detroit 6/15/13 Travel time: 2 Wait time: 1
+Detroit Cleveland 6/18/13 Travel time: 0 Wait time: 2
+Cleveland Austin 6/20/13 Travel time: 2
+Home on 6/22/13
+Total Traversals: 325
