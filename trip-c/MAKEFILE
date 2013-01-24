@@ -1,0 +1,7 @@
+tripnt.exe: tripnt.obj makefile
+	link32 -OUT:tripnt.exe -DEBUG:mapped,full -DEBUGTYPE:BOTH -SUBSYSTEM:console tripnt.obj crtdll.lib
+
+tripnt.obj: trip.c makefile
+	cl386 /c /Zi /Fotripnt.obj trip.c
+
+
