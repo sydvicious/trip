@@ -1,28 +1,28 @@
 Start City: Austin
-Start Date: 6/8/13
-Start Day: 70
-FOUND - Iteration 5 - 24 days - getting back on 7/2/13
-  Austin Miami 6/8/13 Travel time: 3 Wait time: 1
-  Miami Atlanta 6/12/13 Travel time: 1 Wait time: 2
-  Atlanta Philadelphia 6/15/13 Travel time: 2 Wait time: 1
-  Philadelphia Washington 6/18/13 Travel time: 0 Wait time: 3
-  Washington Flushing 6/21/13 Travel time: 1 Wait time: 7
-  Flushing Austin 6/29/13 Travel time: 3
+Start Date: 6/5/17
+Start Day: 65
+FOUND - Iteration 5 - 18 days - getting back on 6/23/17
+  Austin Atlanta 6/5/17 Travel time: 2 Wait time: 1
+  Atlanta Washington 6/8/17 Travel time: 1 Wait time: 1
+  Washington Flushing 6/10/17 Travel time: 1 Wait time: 2
+  Flushing Philadelphia 6/13/17 Travel time: 0 Wait time: 2
+  Philadelphia Miami 6/15/17 Travel time: 2 Wait time: 3
+  Miami Austin 6/20/17 Travel time: 3
 
-FOUND - Iteration 21 - 19 days - getting back on 6/27/13
-  Austin Miami 6/8/13 Travel time: 3 Wait time: 1
-  Miami Flushing 6/12/13 Travel time: 3 Wait time: 2
-  Flushing Philadelphia 6/17/13 Travel time: 0 Wait time: 1
-  Philadelphia Atlanta 6/18/13 Travel time: 2 Wait time: 1
-  Atlanta Washington 6/21/13 Travel time: 1 Wait time: 2
-  Washington Austin 6/24/13 Travel time: 3
+FOUND - Iteration 10 - 17 days - getting back on 6/22/17
+  Austin Atlanta 6/5/17 Travel time: 2 Wait time: 1
+  Atlanta Washington 6/8/17 Travel time: 1 Wait time: 1
+  Washington Miami 6/10/17 Travel time: 2 Wait time: 2
+  Miami Philadelphia 6/14/17 Travel time: 2 Wait time: 1
+  Philadelphia Flushing 6/17/17 Travel time: 0 Wait time: 2
+  Flushing Austin 6/19/17 Travel time: 3
 
 Done.
-Austin Miami 6/8/13 Travel time: 3 Wait time: 1
-Miami Flushing 6/12/13 Travel time: 3 Wait time: 2
-Flushing Philadelphia 6/17/13 Travel time: 0 Wait time: 1
-Philadelphia Atlanta 6/18/13 Travel time: 2 Wait time: 1
-Atlanta Washington 6/21/13 Travel time: 1 Wait time: 2
-Washington Austin 6/24/13 Travel time: 3
-Home on 6/27/13
+Austin Atlanta 6/5/17 Travel time: 2 Wait time: 1
+Atlanta Washington 6/8/17 Travel time: 1 Wait time: 1
+Washington Miami 6/10/17 Travel time: 2 Wait time: 2
+Miami Philadelphia 6/14/17 Travel time: 2 Wait time: 1
+Philadelphia Flushing 6/17/17 Travel time: 0 Wait time: 2
+Flushing Austin 6/19/17 Travel time: 3
+Home on 6/22/17
 Total Traversals: 325

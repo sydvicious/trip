@@ -1,0 +1,57 @@
+Start City: Austin
+Start Date: 6/5/17
+Start Day: 65
+FOUND - Iteration 15 - 50 days - getting back on 7/25/17
+  Austin Atlanta 6/5/17 Travel time: 2 Wait time: 1
+  Atlanta Pittsburgh 6/8/17 Travel time: 1 Wait time: 1
+  Pittsburgh {Chicago - Wrigley} 6/10/17 Travel time: 1 Wait time: 2
+  {Chicago - Wrigley} {St. Louis} 6/13/17 Travel time: 1 Wait time: 1
+  {St. Louis} Cincinnati 6/15/17 Travel time: 1 Wait time: 1
+  Cincinnati Miami 6/17/17 Travel time: 2 Wait time: 1
+  Miami Washington 6/20/17 Travel time: 2 Wait time: 2
+  Washington Phoenix 6/24/17 Travel time: 4 Wait time: 1
+  Phoenix {San Diego} 6/29/17 Travel time: 1 Wait time: 1
+  {San Diego} Denver 7/1/17 Travel time: 2 Wait time: 1
+  Denver {Los Angeles} 7/4/17 Travel time: 2 Wait time: 1
+  {Los Angeles} {San Francisco} 7/7/17 Travel time: 1 Wait time: 1
+  {San Francisco} Milwaukee 7/9/17 Travel time: 4 Wait time: 2
+  Milwaukee Flushing 7/15/17 Travel time: 2 Wait time: 1
+  Flushing Philadelphia 7/18/17 Travel time: 0 Wait time: 4
+  Philadelphia Austin 7/22/17 Travel time: 3
+
+FOUND - Iteration 2958107 - 47 days - getting back on 7/22/17
+  Austin Atlanta 6/5/17 Travel time: 2 Wait time: 1
+  Atlanta Pittsburgh 6/8/17 Travel time: 1 Wait time: 1
+  Pittsburgh {Chicago - Wrigley} 6/10/17 Travel time: 1 Wait time: 2
+  {Chicago - Wrigley} {St. Louis} 6/13/17 Travel time: 1 Wait time: 1
+  {St. Louis} Cincinnati 6/15/17 Travel time: 1 Wait time: 1
+  Cincinnati Denver 6/17/17 Travel time: 2 Wait time: 2
+  Denver {Los Angeles} 6/21/17 Travel time: 2 Wait time: 1
+  {Los Angeles} {San Diego} 6/24/17 Travel time: 0 Wait time: 1
+  {San Diego} {San Francisco} 6/25/17 Travel time: 1 Wait time: 1
+  {San Francisco} Phoenix 6/27/17 Travel time: 1 Wait time: 1
+  Phoenix Milwaukee 6/29/17 Travel time: 4 Wait time: 2
+  Milwaukee Philadelphia 7/5/17 Travel time: 2 Wait time: 1
+  Philadelphia Washington 7/8/17 Travel time: 0 Wait time: 2
+  Washington Flushing 7/10/17 Travel time: 1 Wait time: 4
+  Flushing Miami 7/15/17 Travel time: 3 Wait time: 1
+  Miami Austin 7/19/17 Travel time: 3
+
+FOUND - Iteration 216199279 - 46 days - getting back on 7/21/17
+  Austin Atlanta 6/5/17 Travel time: 2 Wait time: 1
+  Atlanta Pittsburgh 6/8/17 Travel time: 1 Wait time: 1
+  Pittsburgh {Chicago - Wrigley} 6/10/17 Travel time: 1 Wait time: 2
+  {Chicago - Wrigley} Flushing 6/13/17 Travel time: 2 Wait time: 1
+  Flushing Philadelphia 6/16/17 Travel time: 0 Wait time: 1
+  Philadelphia Denver 6/17/17 Travel time: 3 Wait time: 1
+  Denver {Los Angeles} 6/21/17 Travel time: 2 Wait time: 1
+  {Los Angeles} {San Diego} 6/24/17 Travel time: 0 Wait time: 1
+  {San Diego} {San Francisco} 6/25/17 Travel time: 1 Wait time: 1
+  {San Francisco} Phoenix 6/27/17 Travel time: 1 Wait time: 1
+  Phoenix {St. Louis} 6/29/17 Travel time: 3 Wait time: 2
+  {St. Louis} Milwaukee 7/4/17 Travel time: 1 Wait time: 1
+  Milwaukee Washington 7/6/17 Travel time: 2 Wait time: 2
+  Washington Cincinnati 7/10/17 Travel time: 1 Wait time: 4
+  Cincinnati Miami 7/15/17 Travel time: 2 Wait time: 1
+  Miami Austin 7/18/17 Travel time: 3
+

@@ -1,0 +1,234 @@
+NEW BEST PATH
+Total days = 13
+Start city = San Fransisco
+Start day = -2
+San Fransisco
+to Houston, 3 days on road, 4 waiting in city
+to Los Angeles, 2 days on road, 3 waiting in city
+to San Fransisco, 1 days on road.
+NEW BEST PATH
+Total days = 12
+Start city = San Fransisco
+Start day = -1
+San Fransisco
+to Houston, 3 days on road, 3 waiting in city
+to Los Angeles, 2 days on road, 3 waiting in city
+to San Fransisco, 1 days on road.
+NEW BEST PATH
+Total days = 11
+Start city = San Fransisco
+Start day = 0
+San Fransisco
+to Houston, 3 days on road, 2 waiting in city
+to Los Angeles, 2 days on road, 3 waiting in city
+to San Fransisco, 1 days on road.
+NEW BEST PATH
+Total days = 10
+Start city = San Fransisco
+Start day = 1
+San Fransisco
+to Houston, 3 days on road, 1 waiting in city
+to Los Angeles, 2 days on road, 3 waiting in city
+to San Fransisco, 1 days on road.
+NEW BEST PATH
+Total days = 9
+Start city = San Fransisco
+Start day = 2
+San Fransisco
+to Houston, 3 days on road, 1 waiting in city
+to Los Angeles, 2 days on road, 2 waiting in city
+to San Fransisco, 1 days on road.
+NEW BEST PATH
+Total days = 8
+Start city = San Fransisco
+Start day = 3
+San Fransisco
+to Houston, 3 days on road, 1 waiting in city
+to Los Angeles, 2 days on road, 1 waiting in city
+to San Fransisco, 1 days on road.
+Total days = 8
+Start city = San Fransisco
+Start day = 3
+San Fransisco
+to Houston, 3 days on road, 1 waiting in city
+to Los Angeles, 2 days on road, 1 waiting in city
+to San Fransisco, 1 days on road.
+Total days = 8
+Start city = San Fransisco
+Start day = 3
+San Fransisco
+to Houston, 3 days on road, 1 waiting in city
+to Los Angeles, 2 days on road, 1 waiting in city
+to San Fransisco, 1 days on road.
+
+BEST TOTAL FOR CITY San Fransisco:
+Total days = 8
+Start city = San Fransisco
+Start day = 3
+San Fransisco
+to Houston, 3 days on road, 1 waiting in city
+to Los Angeles, 2 days on road, 1 waiting in city
+to San Fransisco, 1 days on road.
+
+NEW BEST PATH
+Total days = 12
+Start city = Los Angeles
+Start day = -2
+Los Angeles
+to Houston, 2 days on road, 5 waiting in city
+to San Fransisco, 3 days on road, 1 waiting in city
+to Los Angeles, 1 days on road.
+NEW BEST PATH
+Total days = 8
+Start city = Los Angeles
+Start day = -1
+Los Angeles
+to San Fransisco, 1 days on road, 1 waiting in city
+to Houston, 3 days on road, 1 waiting in city
+to Los Angeles, 2 days on road.
+NEW SOLUTION OF SAME LENGTH
+Total days = 8
+Start city = Los Angeles
+Start day = 0
+Los Angeles
+to San Fransisco, 1 days on road, 1 waiting in city
+to Houston, 3 days on road, 1 waiting in city
+to Los Angeles, 2 days on road.
+NEW SOLUTION OF SAME LENGTH
+Total days = 8
+Start city = Los Angeles
+Start day = 1
+Los Angeles
+to San Fransisco, 1 days on road, 1 waiting in city
+to Houston, 3 days on road, 1 waiting in city
+to Los Angeles, 2 days on road.
+Total days = 8
+Start city = Los Angeles
+Start day = 1
+Los Angeles
+to San Fransisco, 1 days on road, 1 waiting in city
+to Houston, 3 days on road, 1 waiting in city
+to Los Angeles, 2 days on road.
+NEW SOLUTION OF SAME LENGTH
+Total days = 8
+Start city = Los Angeles
+Start day = 2
+Los Angeles
+to Houston, 2 days on road, 1 waiting in city
+to San Fransisco, 3 days on road, 1 waiting in city
+to Los Angeles, 1 days on road.
+
+BEST TOTAL FOR CITY Los Angeles:
+Total days = 8
+Start city = Los Angeles
+Start day = 2
+Los Angeles
+to Houston, 2 days on road, 1 waiting in city
+to San Fransisco, 3 days on road, 1 waiting in city
+to Los Angeles, 1 days on road.
+
+NEW BEST PATH
+Total days = 14
+Start city = Houston
+Start day = -2
+Houston
+to San Fransisco, 3 days on road, 1 waiting in city
+to Los Angeles, 1 days on road, 7 waiting in city
+to Houston, 2 days on road.
+NEW BEST PATH
+Total days = 13
+Start city = Houston
+Start day = -1
+Houston
+to San Fransisco, 3 days on road, 1 waiting in city
+to Los Angeles, 1 days on road, 6 waiting in city
+to Houston, 2 days on road.
+NEW BEST PATH
+Total days = 12
+Start city = Houston
+Start day = 0
+Houston
+to San Fransisco, 3 days on road, 5 waiting in city
+to Los Angeles, 1 days on road, 1 waiting in city
+to Houston, 2 days on road.
+NEW BEST PATH
+Total days = 11
+Start city = Houston
+Start day = 1
+Houston
+to San Fransisco, 3 days on road, 4 waiting in city
+to Los Angeles, 1 days on road, 1 waiting in city
+to Houston, 2 days on road.
+NEW BEST PATH
+Total days = 10
+Start city = Houston
+Start day = 2
+Houston
+to San Fransisco, 3 days on road, 3 waiting in city
+to Los Angeles, 1 days on road, 1 waiting in city
+to Houston, 2 days on road.
+NEW BEST PATH
+Total days = 9
+Start city = Houston
+Start day = 3
+Houston
+to San Fransisco, 3 days on road, 2 waiting in city
+to Los Angeles, 1 days on road, 1 waiting in city
+to Houston, 2 days on road.
+NEW BEST PATH
+Total days = 8
+Start city = Houston
+Start day = 4
+Houston
+to San Fransisco, 3 days on road, 1 waiting in city
+to Los Angeles, 1 days on road, 1 waiting in city
+to Houston, 2 days on road.
+NEW SOLUTION OF SAME LENGTH
+Total days = 8
+Start city = Houston
+Start day = 5
+Houston
+to San Fransisco, 3 days on road, 1 waiting in city
+to Los Angeles, 1 days on road, 1 waiting in city
+to Houston, 2 days on road.
+Total days = 8
+Start city = Houston
+Start day = 5
+Houston
+to San Fransisco, 3 days on road, 1 waiting in city
+to Los Angeles, 1 days on road, 1 waiting in city
+to Houston, 2 days on road.
+Total days = 8
+Start city = Houston
+Start day = 5
+Houston
+to San Fransisco, 3 days on road, 1 waiting in city
+to Los Angeles, 1 days on road, 1 waiting in city
+to Houston, 2 days on road.
+Total days = 8
+Start city = Houston
+Start day = 5
+Houston
+to San Fransisco, 3 days on road, 1 waiting in city
+to Los Angeles, 1 days on road, 1 waiting in city
+to Houston, 2 days on road.
+
+BEST TOTAL FOR CITY Houston:
+Total days = 8
+Start city = Houston
+Start day = 5
+Houston
+to San Fransisco, 3 days on road, 1 waiting in city
+to Los Angeles, 1 days on road, 1 waiting in city
+to Houston, 2 days on road.
+
+
+
+BEST OVERALL TOTAL
+Total days = 8
+Start city = San Fransisco
+Start day = 3
+San Fransisco
+to Houston, 3 days on road, 1 waiting in city
+to Los Angeles, 2 days on road, 1 waiting in city
+to San Fransisco, 1 days on road.

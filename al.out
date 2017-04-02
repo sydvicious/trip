@@ -1,0 +1,147 @@
+Start City: Austin
+Start Date: 6/5/17
+Start Day: 65
+FOUND - Iteration 15 - 56 days - getting back on 7/31/17
+  Austin Arlington 6/5/17 Travel time: 0 Wait time: 2
+  Arlington {Kansas City} 6/7/17 Travel time: 1 Wait time: 1
+  {Kansas City} {Chicago - U.S. Cellular} 6/9/17 Travel time: 1 Wait time: 2
+  {Chicago - U.S. Cellular} Detroit 6/12/17 Travel time: 1 Wait time: 1
+  Detroit Toronto 6/14/17 Travel time: 0 Wait time: 1
+  Toronto Baltimore 6/15/17 Travel time: 1 Wait time: 1
+  Baltimore Cleveland 6/17/17 Travel time: 1 Wait time: 2
+  Cleveland Minneapolis 6/20/17 Travel time: 1 Wait time: 1
+  Minneapolis Boston 6/22/17 Travel time: 3 Wait time: 2
+  Boston Houston 6/27/17 Travel time: 4 Wait time: 1
+  Houston {St. Petersburg} 7/2/17 Travel time: 2 Wait time: 3
+  {St. Petersburg} Anaheim 7/7/17 Travel time: 5 Wait time: 3
+  Anaheim Oakland 7/15/17 Travel time: 1 Wait time: 2
+  Oakland Seattle 7/18/17 Travel time: 2 Wait time: 1
+  Seattle {The Bronx} 7/21/17 Travel time: 6 Wait time: 1
+  {The Bronx} Austin 7/28/17 Travel time: 3
+
+FOUND - Iteration 341 - 54 days - getting back on 7/29/17
+  Austin Arlington 6/5/17 Travel time: 0 Wait time: 2
+  Arlington {Kansas City} 6/7/17 Travel time: 1 Wait time: 1
+  {Kansas City} {Chicago - U.S. Cellular} 6/9/17 Travel time: 1 Wait time: 2
+  {Chicago - U.S. Cellular} Detroit 6/12/17 Travel time: 1 Wait time: 1
+  Detroit Toronto 6/14/17 Travel time: 0 Wait time: 1
+  Toronto Baltimore 6/15/17 Travel time: 1 Wait time: 1
+  Baltimore Cleveland 6/17/17 Travel time: 1 Wait time: 2
+  Cleveland Minneapolis 6/20/17 Travel time: 1 Wait time: 1
+  Minneapolis Boston 6/22/17 Travel time: 3 Wait time: 2
+  Boston Oakland 6/27/17 Travel time: 6 Wait time: 1
+  Oakland Seattle 7/4/17 Travel time: 2 Wait time: 1
+  Seattle Anaheim 7/7/17 Travel time: 2 Wait time: 6
+  Anaheim Houston 7/15/17 Travel time: 3 Wait time: 1
+  Houston {St. Petersburg} 7/19/17 Travel time: 2 Wait time: 1
+  {St. Petersburg} {The Bronx} 7/22/17 Travel time: 2 Wait time: 2
+  {The Bronx} Austin 7/26/17 Travel time: 3
+
+FOUND - Iteration 13715 - 52 days - getting back on 7/27/17
+  Austin Arlington 6/5/17 Travel time: 0 Wait time: 2
+  Arlington {Kansas City} 6/7/17 Travel time: 1 Wait time: 1
+  {Kansas City} {Chicago - U.S. Cellular} 6/9/17 Travel time: 1 Wait time: 2
+  {Chicago - U.S. Cellular} Detroit 6/12/17 Travel time: 1 Wait time: 1
+  Detroit Toronto 6/14/17 Travel time: 0 Wait time: 1
+  Toronto Baltimore 6/15/17 Travel time: 1 Wait time: 1
+  Baltimore Cleveland 6/17/17 Travel time: 1 Wait time: 2
+  Cleveland {The Bronx} 6/20/17 Travel time: 1 Wait time: 1
+  {The Bronx} Boston 6/22/17 Travel time: 0 Wait time: 2
+  Boston Houston 6/24/17 Travel time: 4 Wait time: 1
+  Houston Minneapolis 6/29/17 Travel time: 2 Wait time: 3
+  Minneapolis Seattle 7/4/17 Travel time: 3 Wait time: 1
+  Seattle Anaheim 7/8/17 Travel time: 2 Wait time: 5
+  Anaheim Oakland 7/15/17 Travel time: 1 Wait time: 2
+  Oakland {St. Petersburg} 7/18/17 Travel time: 6 Wait time: 1
+  {St. Petersburg} Austin 7/25/17 Travel time: 2
+
+FOUND - Iteration 13731 - 51 days - getting back on 7/26/17
+  Austin Arlington 6/5/17 Travel time: 0 Wait time: 2
+  Arlington {Kansas City} 6/7/17 Travel time: 1 Wait time: 1
+  {Kansas City} {Chicago - U.S. Cellular} 6/9/17 Travel time: 1 Wait time: 2
+  {Chicago - U.S. Cellular} Detroit 6/12/17 Travel time: 1 Wait time: 1
+  Detroit Toronto 6/14/17 Travel time: 0 Wait time: 1
+  Toronto Baltimore 6/15/17 Travel time: 1 Wait time: 1
+  Baltimore Cleveland 6/17/17 Travel time: 1 Wait time: 2
+  Cleveland {The Bronx} 6/20/17 Travel time: 1 Wait time: 1
+  {The Bronx} Boston 6/22/17 Travel time: 0 Wait time: 2
+  Boston Houston 6/24/17 Travel time: 4 Wait time: 1
+  Houston Minneapolis 6/29/17 Travel time: 2 Wait time: 3
+  Minneapolis {St. Petersburg} 7/4/17 Travel time: 3 Wait time: 1
+  {St. Petersburg} Anaheim 7/8/17 Travel time: 5 Wait time: 2
+  Anaheim Oakland 7/15/17 Travel time: 1 Wait time: 2
+  Oakland Seattle 7/18/17 Travel time: 2 Wait time: 1
+  Seattle Austin 7/21/17 Travel time: 5
+
+FOUND - Iteration 14041 - 49 days - getting back on 7/24/17
+  Austin Arlington 6/5/17 Travel time: 0 Wait time: 2
+  Arlington {Kansas City} 6/7/17 Travel time: 1 Wait time: 1
+  {Kansas City} {Chicago - U.S. Cellular} 6/9/17 Travel time: 1 Wait time: 2
+  {Chicago - U.S. Cellular} Detroit 6/12/17 Travel time: 1 Wait time: 1
+  Detroit Toronto 6/14/17 Travel time: 0 Wait time: 1
+  Toronto Baltimore 6/15/17 Travel time: 1 Wait time: 1
+  Baltimore Cleveland 6/17/17 Travel time: 1 Wait time: 2
+  Cleveland {The Bronx} 6/20/17 Travel time: 1 Wait time: 1
+  {The Bronx} Boston 6/22/17 Travel time: 0 Wait time: 2
+  Boston Anaheim 6/24/17 Travel time: 6 Wait time: 1
+  Anaheim Oakland 7/1/17 Travel time: 1 Wait time: 2
+  Oakland Seattle 7/4/17 Travel time: 2 Wait time: 1
+  Seattle Houston 7/7/17 Travel time: 5 Wait time: 3
+  Houston Minneapolis 7/15/17 Travel time: 2 Wait time: 1
+  Minneapolis {St. Petersburg} 7/18/17 Travel time: 3 Wait time: 1
+  {St. Petersburg} Austin 7/22/17 Travel time: 2
+
+FOUND - Iteration 110263 - 47 days - getting back on 7/22/17
+  Austin Arlington 6/5/17 Travel time: 0 Wait time: 2
+  Arlington {Kansas City} 6/7/17 Travel time: 1 Wait time: 1
+  {Kansas City} {Chicago - U.S. Cellular} 6/9/17 Travel time: 1 Wait time: 2
+  {Chicago - U.S. Cellular} Detroit 6/12/17 Travel time: 1 Wait time: 1
+  Detroit Toronto 6/14/17 Travel time: 0 Wait time: 1
+  Toronto Baltimore 6/15/17 Travel time: 1 Wait time: 1
+  Baltimore {St. Petersburg} 6/17/17 Travel time: 2 Wait time: 1
+  {St. Petersburg} {The Bronx} 6/20/17 Travel time: 2 Wait time: 1
+  {The Bronx} Boston 6/23/17 Travel time: 0 Wait time: 1
+  Boston Oakland 6/24/17 Travel time: 6 Wait time: 1
+  Oakland Seattle 7/1/17 Travel time: 2 Wait time: 1
+  Seattle Minneapolis 7/4/17 Travel time: 3 Wait time: 1
+  Minneapolis Cleveland 7/8/17 Travel time: 2 Wait time: 2
+  Cleveland Houston 7/12/17 Travel time: 2 Wait time: 1
+  Houston Anaheim 7/15/17 Travel time: 3 Wait time: 1
+  Anaheim Austin 7/19/17 Travel time: 3
+
+FOUND - Iteration 987976 - 46 days - getting back on 7/21/17
+  Austin Arlington 6/5/17 Travel time: 0 Wait time: 2
+  Arlington {Kansas City} 6/7/17 Travel time: 1 Wait time: 1
+  {Kansas City} {Chicago - U.S. Cellular} 6/9/17 Travel time: 1 Wait time: 2
+  {Chicago - U.S. Cellular} Detroit 6/12/17 Travel time: 1 Wait time: 1
+  Detroit Toronto 6/14/17 Travel time: 0 Wait time: 1
+  Toronto Cleveland 6/15/17 Travel time: 1 Wait time: 2
+  Cleveland Baltimore 6/18/17 Travel time: 1 Wait time: 1
+  Baltimore {The Bronx} 6/20/17 Travel time: 0 Wait time: 1
+  {The Bronx} {St. Petersburg} 6/21/17 Travel time: 2 Wait time: 1
+  {St. Petersburg} Houston 6/24/17 Travel time: 2 Wait time: 2
+  Houston Anaheim 6/28/17 Travel time: 3 Wait time: 1
+  Anaheim Oakland 7/2/17 Travel time: 1 Wait time: 1
+  Oakland Seattle 7/4/17 Travel time: 2 Wait time: 1
+  Seattle Boston 7/7/17 Travel time: 6 Wait time: 2
+  Boston Minneapolis 7/15/17 Travel time: 3 Wait time: 1
+  Minneapolis Austin 7/19/17 Travel time: 2
+
+FOUND - Iteration 216116976 - 45 days - getting back on 7/20/17
+  Austin Arlington 6/5/17 Travel time: 0 Wait time: 2
+  Arlington {Kansas City} 6/7/17 Travel time: 1 Wait time: 1
+  {Kansas City} {Chicago - U.S. Cellular} 6/9/17 Travel time: 1 Wait time: 2
+  {Chicago - U.S. Cellular} Toronto 6/12/17 Travel time: 1 Wait time: 1
+  Toronto Detroit 6/14/17 Travel time: 0 Wait time: 1
+  Detroit Cleveland 6/15/17 Travel time: 0 Wait time: 2
+  Cleveland {St. Petersburg} 6/17/17 Travel time: 2 Wait time: 1
+  {St. Petersburg} Baltimore 6/20/17 Travel time: 2 Wait time: 1
+  Baltimore {The Bronx} 6/23/17 Travel time: 0 Wait time: 1
+  {The Bronx} Boston 6/24/17 Travel time: 0 Wait time: 1
+  Boston Anaheim 6/25/17 Travel time: 6 Wait time: 1
+  Anaheim Oakland 7/2/17 Travel time: 1 Wait time: 1
+  Oakland Seattle 7/4/17 Travel time: 2 Wait time: 1
+  Seattle Houston 7/7/17 Travel time: 5 Wait time: 3
+  Houston Minneapolis 7/15/17 Travel time: 2 Wait time: 1
+  Minneapolis Austin 7/18/17 Travel time: 2
+
