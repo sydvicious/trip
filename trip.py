@@ -12,17 +12,17 @@ def get_distances():
         entries = line.split('\t')
         cities_count = int(entries[0])
         city_list = entries[1:]
-        for from_city_index in xrange(0, cities_count-1):
+        for from_city_index in range(0, cities_count):
             from_city = city_list[from_city_index]
             distances = {}
             distance_entries = f.readline().strip().split('\t')
             from_city_check = distance_entries[0]
             if from_city != from_city_check:
                 exit(1)
-            for distance_index in xrange(1, cities_count):
-                to_city = city_list[distance_index - 1]
+            for distance_index in xrange(0, cities_count):
+                to_city = city_list[distance_index]
                 if from_city != to_city:
-                    entry = float(distance_entries[distance_index])
+                    entry = float(distance_entries[distance_index + 1])
                     days_float = (entry - 4) / 8.0
                     days = math.ceil(days_float)
                     distance = int(max(days, 0))
@@ -42,7 +42,7 @@ def get_wait_times():
         first_date_string = entries[1]
         cities_count = len(city_list)
 
-        for city_index in xrange(0, cities_count-1):
+        for city_index in xrange(0, cities_count):
             city = city_list[city_index]
             wait_times_raw = f.readline().strip().split('\t')[1:]
             wait_times = []
@@ -212,7 +212,7 @@ class Traversal:
 
 city_list, global_distances = get_distances()
 first_date_string, global_wait_times = get_wait_times()
-start_city = 'Austin'
+start_city = 'Bowling Green'
 start_day = 0
 dest_list = read_dest_list()
 traversal = Traversal(start_day, start_city, dest_list, global_distances, global_wait_times, first_date_string)
