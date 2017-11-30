@@ -40,17 +40,12 @@ def get_wait_times():
         line = f.readline().strip()
         entries = line.split('\t')
         first_date_string = entries[1]
-        cities_count = len(city_list)
 
-        for city_index in xrange(0, cities_count):
-            city = city_list[city_index]
-            wait_times_raw = f.readline().strip().split('\t')[1:]
-            wait_times = []
-            for wait in wait_times_raw:
-                if wait == 'x':
-                    wait = 999
-                wait_times.append(int(wait))
-                return_wait_times[city] = wait_times
+        for line in f.read().splitlines(False):
+            fields = line.split('\t')
+            city = fields[0]
+            wait_times = fields[1:]
+            return_wait_times[city] = wait_times
     return first_date_string, return_wait_times
 
 
@@ -142,6 +137,9 @@ class Traversal:
                 return
             city_wait_times = self.wait_times[new_city]
             wait_time = city_wait_times[time_so_far + distance]
+            if wait_time == 'x':
+                return
+            wait_time = int(wait_time)
             pair = WaitPair(new_city, distance, wait_time, self)
             pairs.append(pair)
 
@@ -171,6 +169,9 @@ class Traversal:
 
             city_wait_times = self.wait_times[new_city]
             wait_time = city_wait_times[time_so_far + distance]
+            if wait_time == 'x':
+                return
+            wait_time = int(wait_time)
             pair = WaitPair(new_city, distance, wait_time, self)
             q.put(pair)
 
@@ -198,6 +199,9 @@ class Traversal:
                 return
             city_wait_times = self.wait_times[new_city]
             wait_time = city_wait_times[time_so_far + distance]
+            if wait_time == 'x':
+                return
+            wait_time = int(wait_time)
             pair = WaitPair(new_city, distance, wait_time, self)
             pairs.append(pair)
         pairs.sort()
@@ -212,7 +216,7 @@ class Traversal:
 
 city_list, global_distances = get_distances()
 first_date_string, global_wait_times = get_wait_times()
-start_city = 'Bowling Green'
+start_city = 'Austin'
 start_day = 0
 dest_list = read_dest_list()
 traversal = Traversal(start_day, start_city, dest_list, global_distances, global_wait_times, first_date_string)
