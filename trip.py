@@ -7,6 +7,7 @@ import math
 import Queue
 import sys
 import threading
+import time
 
 def valid_date(s):
     try:
@@ -81,18 +82,18 @@ def read_dest_list():
 
 def get_worker(traversal):
     while True:
-        intermediate = traversal.return_results.get()
-        print 'Getting %s; %d; %s; %s' % (intermediate.pair.city, intermediate.time_so_far, intermediate.cities_left, intermediate.route_so_far)
-        best_time = traversal.best_time
-        time_so_far = intermediate.time_so_far
-        num_cities = len(intermediate.cities_left)
-        city = intermediate.pair.city
-        cities_left = intermediate.cities_left
-        route_so_far = intermediate.route_so_far
-        if traversal.compare(time_so_far + num_cities, best_time) <= 1:
-            traversal.parallel_iterate(city, cities_left, time_so_far, route_so_far)
-        traversal.return_results.task_done()
+        intermediate = traversal.results.get()
+        if intermediate.time_so_far >= traversal.best_time:
+            continue
+        for i in range(num_worker_threads):
+            t = threading.Thread(target = put_worker, args=(traversal, intermediate))
+            t.daemon = True
+            t.start()
 
+        traversal.results.task_done()
+
+def put_worker(traversal, intermediate):
+    intermediate.process(traversal)
 
 class WaitPair:
     def __init__(self, city, distance, wait, traversal):
@@ -122,6 +123,21 @@ class IntermediateResult:
             return cmp(len(self.cities_left), len(other.cities_left))
         return cmp(self.time_so_far, other.time_so_far)
 
+    def __repr__(self):
+        return "%s %d %s %s" % (self.pair.city, self.time_so_far, self.cities_left, self.route_so_far)
+
+    def process(self, traversal):
+        best_time = traversal.best_time
+        time_so_far = self.time_so_far
+        num_cities = len(self.cities_left)
+        city = self.pair.city
+        cities_left = self.cities_left
+        route_so_far = self.route_so_far
+        if traversal.compare(time_so_far + num_cities, best_time) <= 1:
+            traversal.parallel_iterate(city, cities_left, time_so_far, route_so_far)
+        pass
+
+
 class Traversal:
 
     def __init__(self, start_day, start_city, cities, distances, wait_times, first_date_string, traverse_func_name):
@@ -141,7 +157,9 @@ class Traversal:
         self.log_traversals = False
         self.start_time = datetime.datetime.now()
         self.traverse_func = getattr(Traversal, traverse_func_name)
-        self.return_results = Queue.PriorityQueue(maxsize=len(cities))
+        self.results = Queue.PriorityQueue()
+        self.done = False
+
 
         print 'Starting run at %s' % self.start_time
 
@@ -261,7 +279,6 @@ class Traversal:
 
         city_distances = self.distances[city]
         total_distances_left = time_so_far
-        pairs = []
 
         for new_city in cities:
             distance = city_distances[new_city]
@@ -275,25 +292,30 @@ class Traversal:
                 continue
             wait_time = int(wait_time)
             pair = WaitPair(new_city, distance, wait_time, self)
-            pairs.append(pair)
-
-        for pair in pairs:
             intermediate = self.do_iteration(pair, cities, time_so_far, route_so_far)
             if intermediate:
-                print 'Putting %s; %d; %s; %s' % (pair.city, time_so_far, cities, route_so_far)
-                self.return_results.put(intermediate)
+                self.results.put(intermediate)
 
         pass
 
-    def parallel(self, city, cities, time_so_far, route_so_far):
-        pair = WaitPair(city, 0, 0, self)
-        intermediate = IntermediateResult(pair, cities, time_so_far, route_so_far)
-        self.return_results.put(intermediate)
+    def thread(self):
         for i in range(num_worker_threads):
             t = threading.Thread(target = get_worker, args=(self,))
             t.daemon = True
             t.start()
-        self.return_results.join()
+        time.sleep(1)
+        self.results.join()
+        pass
+
+
+    def parallel(self, city, cities, time_so_far, route_so_far):
+        pair = WaitPair(city, 0, 0, self)
+        intermediate = IntermediateResult(pair, cities, time_so_far, route_so_far)
+        self.results.put(intermediate)
+
+        while not self.results.empty():
+            self.thread()
+
 
     def start(self):
         self.traverse_func(self, self.start_city, self.cities, self.start_day, [])
