@@ -1,3 +1,8 @@
+Washington
+Atlanta
+Miami
+Flushing
+Philadelphia
 Chicago - Wrigley
 St. Louis
 Pittsburgh
@@ -6,10 +11,5 @@ Cincinnati
 San Francisco
 Los Angeles
 San Diego
-Phoenix
 Denver
-Flushing
-Washington
-Atlanta
-Philadelphia
-Miami
+Phoenix

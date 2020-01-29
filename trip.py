@@ -71,6 +71,7 @@ def get_wait_times():
             city = fields[0]
             wait_times = fields[1:]
             return_wait_times[city] = wait_times
+        pass
     return first_date_string, return_wait_times
 
 
@@ -83,12 +84,11 @@ def read_dest_list():
 def get_worker(traversal):
     while True:
         intermediate = traversal.results.get()
+        print 'Got %s' % intermediate
         if intermediate.time_so_far >= traversal.best_time:
             continue
-        for i in range(num_worker_threads):
-            t = threading.Thread(target = put_worker, args=(traversal, intermediate))
-            t.daemon = True
-            t.start()
+        t = threading.Thread(target = put_worker, args=(traversal, intermediate))
+        t.start()
 
         traversal.results.task_done()
 
@@ -127,6 +127,7 @@ class IntermediateResult:
         return "%s %d %s %s" % (self.pair.city, self.time_so_far, self.cities_left, self.route_so_far)
 
     def process(self, traversal):
+        print 'Putting %s' % self
         best_time = traversal.best_time
         time_so_far = self.time_so_far
         num_cities = len(self.cities_left)
@@ -157,7 +158,7 @@ class Traversal:
         self.log_traversals = False
         self.start_time = datetime.datetime.now()
         self.traverse_func = getattr(Traversal, traverse_func_name)
-        self.results = Queue.PriorityQueue()
+        self.results = Queue.PriorityQueue(maxsize=8)
         self.done = False
 
 
@@ -194,7 +195,7 @@ class Traversal:
                 print '%s: SOLUTION FOUND - Traversals = %d, Comparisons = %d' % (datetime.datetime.now(), self.traversals, self.comparisons)
                 print self.best_route
                 print 'Home - %s - %d days' % (self.start_city, home_distance)
-                print 'TOTAL - %d' % self.best_time
+                print 'TOTAL - %d' % (self.best_time - self.start_day)
                 sys.stdout.flush()
 
                 return None
@@ -301,12 +302,10 @@ class Traversal:
     def thread(self):
         for i in range(num_worker_threads):
             t = threading.Thread(target = get_worker, args=(self,))
-            t.daemon = True
             t.start()
         time.sleep(1)
         self.results.join()
         pass
-
 
     def parallel(self, city, cities, time_so_far, route_so_far):
         pair = WaitPair(city, 0, 0, self)
