@@ -23,10 +23,12 @@ parser.add_argument('--verbose', action='store_true')
 parser.add_argument('--log-file', dest='log_file', type=argparse.FileType('w'))
 parser.add_argument('--start-day', dest='start_day', type=int, default=0)
 parser.add_argument('--start-date', dest='start_date', type=valid_date, default=None)
+parser.add_argument('--log-comparisons', dest='log_comparisons', type=bool, default=False)
+parser.add_argument('--log-traversals', dest='log_traversals', type=bool, default=False)
 parser.add_argument('--destinations', dest='dest_file', default='destinations.txt', type=argparse.FileType('rU'))
 parser.add_argument('--schedule-file', dest='schedule_file', default='schedule.txt', type=argparse.FileType('rU'))
 parser.add_argument('--distance-file', dest='distances_file', default='distances.txt', type=argparse.FileType('rU'))
-parser.add_argument('--traverse-style', dest='traverse_style', choices=['normal', 'sorted', 'parallel'], default='sorted')
+parser.add_argument('--traverse-style', dest='traverse_style', choices=['normal', 'sorted', 'breadth', 'parallel'], default='sorted')
 args = parser.parse_args()
 
 def get_distances():
@@ -141,7 +143,7 @@ class IntermediateResult:
 
 class Traversal:
 
-    def __init__(self, start_day, start_city, cities, distances, wait_times, first_date_string, traverse_func_name):
+    def __init__(self, start_day, start_city, cities, distances, wait_times, first_date_string, traverse_func_name, log_traversals=False, log_comparisons=False):
         self.start_day = start_day
         self.start_city = start_city
         self.cities = cities
@@ -154,11 +156,11 @@ class Traversal:
         self.comparisons = 0
         self.threshold = 1000000
         self.comparisons_next = self.threshold
-        self.log_comparisons = False
-        self.log_traversals = False
+        self.log_comparisons = log_comparisons
+        self.log_traversals = log_traversals
         self.start_time = datetime.datetime.now()
         self.traverse_func = getattr(Traversal, traverse_func_name)
-        self.results = Queue.PriorityQueue(maxsize=8)
+        self.results = Queue.PriorityQueue()
         self.done = False
 
 
@@ -209,18 +211,10 @@ class Traversal:
     def normal(self, city, cities, time_so_far, route_so_far):
         self.update_traversals()
 
-        num_cities = len(cities)
-        if self.compare(time_so_far + num_cities, self.best_time) > -1:
-            return None
-
         city_distances = self.distances[city]
-        total_distances_left = time_so_far
         pairs = []
         for new_city in cities:
             distance = city_distances[new_city]
-            total_distances_left = total_distances_left + distance
-            if self.compare(total_distances_left, self.best_time) > -1:
-                continue
             city_wait_times = self.wait_times[new_city]
             wait_time = city_wait_times[time_so_far + distance]
             self.update_comparisons()
@@ -279,13 +273,9 @@ class Traversal:
             return None
 
         city_distances = self.distances[city]
-        total_distances_left = time_so_far
 
         for new_city in cities:
             distance = city_distances[new_city]
-            total_distances_left += distance
-            if self.compare(total_distances_left, self.best_time) > -1:
-                continue
             city_wait_times = self.wait_times[new_city]
             wait_time = city_wait_times[time_so_far + distance]
             self.update_comparisons()
@@ -315,6 +305,15 @@ class Traversal:
         while not self.results.empty():
             self.thread()
 
+    def breadth(self, city, cities, time_so_far, route_so_far):
+        self.parallel_iterate(city, cities, time_so_far, route_so_far)
+
+        while self.results.qsize() > 0:
+            intermediate = self.results.get()
+            if not intermediate:
+                break
+            self.parallel_iterate(intermediate.pair.city, intermediate.cities_left, intermediate.time_so_far, intermediate.route_so_far)
+        pass
 
     def start(self):
         self.traverse_func(self, self.start_city, self.cities, self.start_day, [])
@@ -329,5 +328,5 @@ start_day = args.start_day
 dest_list = read_dest_list()
 num_worker_threads = 2
 
-traversal = Traversal(start_day, start_city, dest_list, global_distances, global_wait_times, first_date_string, args.traverse_style)
+traversal = Traversal(start_day, start_city, dest_list, global_distances, global_wait_times, first_date_string, args.traverse_style, args.log_traversals, args.log_comparisons)
 traversal.start()
