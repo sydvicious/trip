@@ -283,34 +283,34 @@ proc traverse {city cities day time_so_far route_so_far} {
       }
 
       if {$new_time_so_far < $best_time} {
-	set next_route $route_so_far
-	lappend next_route [list $city $next_city [get_property $day "date"] Travel time: [get_travel_time $city $next_city] Wait time: [get_wait_time $city $next_city $day]]
-	set next_cities [remove_city_from_list $cities $next_city]
-	set next_day [expr $day + $time]
-	if {[llength $next_cities] == 0} {
-	  set home_time [get_property $next_city $start_city]
-	  if {$next_day + $home_time < $best_time} {
-	    # Success
-            set best_route $next_route
-	    lappend best_route [list $next_city $start_city [get_property $next_day "date"] Travel time: $home_time]
-	    set best_time [expr $next_day + $home_time]
-	    puts "FOUND - Iteration $total_traversals - [expr $best_time - $start_day] days - getting back on [get_property $best_time "date"]"
-	    puts $log_fd "FOUND - Iteration $total_traversals - [expr $best_time - $start_day] days - getting back on [get_property $best_time "date"]"
-	    foreach item $best_route {
-	      puts "  $item"
-	      puts $log_fd $item
-	    }
-	    puts ""
-	    flush stdout
-	    puts $log_fd ""
-	    flush $log_fd
-	    lappend best_route "Home on [get_property $best_time "date"]"
-	  } else {
-             continue
-	  }
-	} else {
-	  traverse $next_city $next_cities $next_day $new_time_so_far $next_route
-	}
+        set next_route $route_so_far
+        lappend next_route [list $city $next_city [get_property $day "date"] Travel time: [get_travel_time $city $next_city] Wait time: [get_wait_time $city $next_city $day]]
+        set next_cities [remove_city_from_list $cities $next_city]
+        set next_day [expr $day + $time]
+        if {[llength $next_cities] == 0} {
+          set home_time [get_property $next_city $start_city]
+          if {$next_day + $home_time < $best_time} {
+            # Success
+                  set best_route $next_route
+            lappend best_route [list $next_city $start_city [get_property $next_day "date"] Travel time: $home_time]
+            set best_time [expr $next_day + $home_time]
+            puts "FOUND - Iteration $total_traversals - [expr $best_time - $start_day] days - getting back on [get_property $best_time "date"]"
+            puts $log_fd "FOUND - Iteration $total_traversals - [expr $best_time - $start_day] days - getting back on [get_property $best_time "date"]"
+            foreach item $best_route {
+              puts "  $item"
+              puts $log_fd $item
+            }
+            puts ""
+            flush stdout
+            puts $log_fd ""
+            flush $log_fd
+            lappend best_route "Home on [get_property $best_time "date"]"
+          } else {
+                   continue
+          }
+        } else {
+          traverse $next_city $next_cities $next_day $new_time_so_far $next_route
+        }
       } else {
 	# The list is sorted by time it takes, so we don't need to do further processing on this route.
         continue
