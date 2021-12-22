@@ -1,4 +1,4 @@
-#!/usr/bin/env python
+#!/usr/bin/env python3
 
 import argparse
 import copy
@@ -208,7 +208,7 @@ class Traversal:
         self.log_traversals = log_traversals
         self.start_time = datetime.datetime.now()
         self.traverse_func = getattr(Traversal, traverse_func_name)
-        self.results = queue.PriorityQueue(maxsize=args.queue_size)
+        self.results = queue.PriorityQueue(maxsize=int(args.queue_size))
         self.done = False
 
         print('Starting run at %s' % self.start_time)
