@@ -1,30 +1,30 @@
-Chicago - Wrigley
-St. Louis
-Pittsburgh
-Milwaukee
-Cincinnati
-San Francisco
-Los Angeles
-San Diego
-Phoenix
-Denver
-Flushing
-Washington
+Anaheim
+Arlington
 Atlanta
-Philadelphia
+Baltimore
+Boston
+Chicago - U.S. Cellular
+Chicago - Wrigley
+Cincinnati
+Cleveland
+Denver
+Detroit
+Flushing
+Houston
+Kansas City
+Los Angeles
 Miami
+Milwaukee
+Minneapolis
+Oakland
+Philadelphia
+Phoenix
+Pittsburgh
+San Diego
+San Francisco
+Seattle
+St. Louis
+St. Petersburg
 The Bronx
 Toronto
-Boston
-St. Petersburg
-Baltimore
-Chicago - U.S. Cellular
-Cleveland
-Detroit
-Minneapolis
-Kansas City
-Houston
-Arlington
-Oakland
-Anaheim
-Seattle
+Washington

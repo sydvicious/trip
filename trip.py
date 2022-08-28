@@ -13,7 +13,7 @@ from operator import attrgetter
 
 def valid_date(s):
     try:
-        return datetime.strptime(s, "%Y-%m-%d")
+        return datetime.datetime.strptime(s, "%Y-%m-%d")
     except ValueError:
         msg = "Note a valide date: '{0}'.".format(s)
         raise argparse.ArgumentTypeError(msg)
