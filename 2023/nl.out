@@ -1,0 +1,28 @@
+Starting run at 2022-08-28 18:16:33.123520
+2022-08-28 18:16:33.123789: SOLUTION FOUND - Traversals = 15, Comparisons = 388
+[San Diego - Distance 2 - Wait 1, Los Angeles - Distance 0 - Wait 2, Phoenix - Distance 1 - Wait 2, San Francisco - Distance 1 - Wait 2, St. Louis - Distance 4 - Wait 2, Denver - Distance 2 - Wait 1, Milwaukee - Distance 2 - Wait 1, Chicago - Wrigley - Distance 0 - Wait 2, Pittsburgh - Distance 1 - Wait 1, Flushing - Distance 1 - Wait 2, Washington - Distance 1 - Wait 2, Atlanta - Distance 1 - Wait 3, Cincinnati - Distance 1 - Wait 3, Miami - Distance 2 - Wait 1, Philadelphia - Distance 2 - Wait 5]
+Home - Austin - 3 days
+TOTAL - 54
+2022-08-28 18:16:33.123859: SOLUTION FOUND - Traversals = 17, Comparisons = 392
+[San Diego - Distance 2 - Wait 1, Los Angeles - Distance 0 - Wait 2, Phoenix - Distance 1 - Wait 2, San Francisco - Distance 1 - Wait 2, St. Louis - Distance 4 - Wait 2, Denver - Distance 2 - Wait 1, Milwaukee - Distance 2 - Wait 1, Chicago - Wrigley - Distance 0 - Wait 2, Pittsburgh - Distance 1 - Wait 1, Flushing - Distance 1 - Wait 2, Washington - Distance 1 - Wait 2, Atlanta - Distance 1 - Wait 3, Philadelphia - Distance 2 - Wait 2, Miami - Distance 2 - Wait 1, Cincinnati - Distance 2 - Wait 5]
+Home - Austin - 2 days
+TOTAL - 53
+2022-08-28 18:16:33.126253: SOLUTION FOUND - Traversals = 634, Comparisons = 2941
+[San Diego - Distance 2 - Wait 1, Los Angeles - Distance 0 - Wait 2, Phoenix - Distance 1 - Wait 2, San Francisco - Distance 1 - Wait 2, St. Louis - Distance 4 - Wait 2, Denver - Distance 2 - Wait 1, Milwaukee - Distance 2 - Wait 1, Chicago - Wrigley - Distance 0 - Wait 2, Atlanta - Distance 2 - Wait 2, Miami - Distance 1 - Wait 2, Washington - Distance 2 - Wait 1, Philadelphia - Distance 0 - Wait 2, Pittsburgh - Distance 1 - Wait 2, Cincinnati - Distance 1 - Wait 2, Flushing - Distance 1 - Wait 4]
+Home - Austin - 3 days
+TOTAL - 51
+2022-08-28 18:16:33.126398: SOLUTION FOUND - Traversals = 664, Comparisons = 3063
+[San Diego - Distance 2 - Wait 1, Los Angeles - Distance 0 - Wait 2, Phoenix - Distance 1 - Wait 2, San Francisco - Distance 1 - Wait 2, St. Louis - Distance 4 - Wait 2, Denver - Distance 2 - Wait 1, Milwaukee - Distance 2 - Wait 1, Chicago - Wrigley - Distance 0 - Wait 2, Atlanta - Distance 2 - Wait 2, Miami - Distance 1 - Wait 2, Flushing - Distance 3 - Wait 2, Philadelphia - Distance 0 - Wait 1, Pittsburgh - Distance 1 - Wait 1, Cincinnati - Distance 1 - Wait 2, Washington - Distance 1 - Wait 2]
+Home - Austin - 3 days
+TOTAL - 49
+2022-08-28 18:16:33.148468: SOLUTION FOUND - Traversals = 5688, Comparisons = 32700
+[San Diego - Distance 2 - Wait 1, Los Angeles - Distance 0 - Wait 2, Phoenix - Distance 1 - Wait 2, San Francisco - Distance 1 - Wait 2, St. Louis - Distance 4 - Wait 2, Denver - Distance 2 - Wait 1, Chicago - Wrigley - Distance 2 - Wait 2, Atlanta - Distance 2 - Wait 2, Miami - Distance 1 - Wait 1, Washington - Distance 2 - Wait 1, Flushing - Distance 1 - Wait 3, Philadelphia - Distance 0 - Wait 1, Pittsburgh - Distance 1 - Wait 1, Cincinnati - Distance 1 - Wait 2, Milwaukee - Distance 1 - Wait 1]
+Home - Austin - 2 days
+TOTAL - 47
+2022-08-28 18:16:33.180174: SOLUTION FOUND - Traversals = 12858, Comparisons = 77671
+[San Diego - Distance 2 - Wait 1, Los Angeles - Distance 0 - Wait 2, Phoenix - Distance 1 - Wait 2, San Francisco - Distance 1 - Wait 2, St. Louis - Distance 4 - Wait 2, Washington - Distance 2 - Wait 1, Philadelphia - Distance 0 - Wait 2, Pittsburgh - Distance 1 - Wait 1, Cincinnati - Distance 1 - Wait 2, Flushing - Distance 1 - Wait 2, Miami - Distance 3 - Wait 1, Atlanta - Distance 1 - Wait 2, Chicago - Wrigley - Distance 1 - Wait 2, Milwaukee - Distance 0 - Wait 1, Denver - Distance 2 - Wait 1]
+Home - Austin - 2 days
+TOTAL - 46
+2022-08-28 18:17:10.246545
+Total traversals - 11223373
+Total comparisons - 43317715

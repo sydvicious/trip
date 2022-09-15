@@ -1,0 +1,16 @@
+Starting run at 2022-08-28 18:16:03.704417
+2022-08-28 18:16:03.704505: SOLUTION FOUND - Traversals = 9, Comparisons = 120
+[Kansas City - Distance 1 - Wait 2, St. Louis - Distance 0 - Wait 2, Minneapolis - Distance 1 - Wait 2, Milwaukee - Distance 1 - Wait 1, Pittsburgh - Distance 1 - Wait 1, Cleveland - Distance 0 - Wait 2, Detroit - Distance 0 - Wait 2, Cincinnati - Distance 1 - Wait 2, Chicago - Distance 1 - Wait 9]
+Home - Austin - 2 days
+TOTAL - 31
+2022-08-28 18:16:03.704552: SOLUTION FOUND - Traversals = 10, Comparisons = 121
+[Kansas City - Distance 1 - Wait 2, St. Louis - Distance 0 - Wait 2, Minneapolis - Distance 1 - Wait 2, Milwaukee - Distance 1 - Wait 1, Pittsburgh - Distance 1 - Wait 1, Cleveland - Distance 0 - Wait 2, Detroit - Distance 0 - Wait 2, Chicago - Distance 0 - Wait 6, Cincinnati - Distance 1 - Wait 3]
+Home - Austin - 2 days
+TOTAL - 28
+2022-08-28 18:16:03.704571: SOLUTION FOUND - Traversals = 12, Comparisons = 125
+[Kansas City - Distance 1 - Wait 2, St. Louis - Distance 0 - Wait 2, Minneapolis - Distance 1 - Wait 2, Milwaukee - Distance 1 - Wait 1, Pittsburgh - Distance 1 - Wait 1, Cleveland - Distance 0 - Wait 2, Cincinnati - Distance 0 - Wait 2, Detroit - Distance 1 - Wait 2, Chicago - Distance 0 - Wait 3]
+Home - Austin - 2 days
+TOTAL - 24
+2022-08-28 18:16:03.730921
+Total traversals - 5481
+Total comparisons - 40336

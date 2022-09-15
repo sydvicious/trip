@@ -1,0 +1,24 @@
+Starting run at 2022-08-28 18:14:09.536001
+2022-08-28 18:14:09.536069: SOLUTION FOUND - Traversals = 8, Comparisons = 91
+[Houston - Distance 0 - Wait 2, Arlington - Distance 0 - Wait 2, Denver - Distance 2 - Wait 2, Phoenix - Distance 2 - Wait 2, San Diego - Distance 1 - Wait 2, Seattle - Distance 3 - Wait 2, Bay Area - Distance 2 - Wait 8, Southern California - Distance 1 - Wait 6]
+Home - Austin - 3 days
+TOTAL - 40
+2022-08-28 18:14:09.536129: SOLUTION FOUND - Traversals = 16, Comparisons = 111
+[Houston - Distance 0 - Wait 2, Arlington - Distance 0 - Wait 2, Denver - Distance 2 - Wait 2, Phoenix - Distance 2 - Wait 2, Seattle - Distance 3 - Wait 2, Bay Area - Distance 2 - Wait 3, Southern California - Distance 1 - Wait 7, San Diego - Distance 0 - Wait 2]
+Home - Austin - 3 days
+TOTAL - 35
+2022-08-28 18:14:09.536672: SOLUTION FOUND - Traversals = 179, Comparisons = 663
+[Houston - Distance 0 - Wait 2, Arlington - Distance 0 - Wait 2, Phoenix - Distance 2 - Wait 2, Southern California - Distance 1 - Wait 7, San Diego - Distance 0 - Wait 1, Denver - Distance 2 - Wait 1, Seattle - Distance 2 - Wait 2, Bay Area - Distance 2 - Wait 4]
+Home - Austin - 4 days
+TOTAL - 34
+2022-08-28 18:14:09.540230: SOLUTION FOUND - Traversals = 1200, Comparisons = 4795
+[San Diego - Distance 2 - Wait 1, Bay Area - Distance 1 - Wait 5, Denver - Distance 3 - Wait 1, Seattle - Distance 2 - Wait 2, Southern California - Distance 2 - Wait 4, Phoenix - Distance 1 - Wait 2, Arlington - Distance 2 - Wait 2, Houston - Distance 0 - Wait 2]
+Home - Austin - 0 days
+TOTAL - 32
+2022-08-28 18:14:09.540594: SOLUTION FOUND - Traversals = 1314, Comparisons = 5205
+[San Diego - Distance 2 - Wait 1, Southern California - Distance 0 - Wait 6, Denver - Distance 3 - Wait 1, Seattle - Distance 2 - Wait 2, Bay Area - Distance 2 - Wait 3, Phoenix - Distance 1 - Wait 2, Arlington - Distance 2 - Wait 2, Houston - Distance 0 - Wait 2]
+Home - Austin - 0 days
+TOTAL - 31
+2022-08-28 18:14:09.545720
+Total traversals - 2750
+Total comparisons - 11803

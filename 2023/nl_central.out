@@ -1,0 +1,12 @@
+Starting run at 2022-08-28 18:17:16.315046
+2022-08-28 18:17:16.315118: SOLUTION FOUND - Traversals = 5, Comparisons = 34
+[St. Louis - Distance 2 - Wait 2, Milwaukee - Distance 1 - Wait 1, Pittsburgh - Distance 1 - Wait 2, Chicago - Wrigley - Distance 1 - Wait 2, Cincinnati - Distance 1 - Wait 2]
+Home - Austin - 2 days
+TOTAL - 17
+2022-08-28 18:17:16.315186: SOLUTION FOUND - Traversals = 10, Comparisons = 47
+[St. Louis - Distance 2 - Wait 2, Cincinnati - Distance 1 - Wait 2, Milwaukee - Distance 1 - Wait 1, Chicago - Wrigley - Distance 0 - Wait 2, Pittsburgh - Distance 1 - Wait 1]
+Home - Austin - 3 days
+TOTAL - 16
+2022-08-28 18:17:16.315422
+Total traversals - 60
+Total comparisons - 239
