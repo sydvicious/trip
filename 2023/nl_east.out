@@ -1,8 +1,8 @@
-Starting run at 2022-08-28 18:17:36.630728
-2022-08-28 18:17:36.630788: SOLUTION FOUND - Traversals = 5, Comparisons = 34
-[Washington - Distance 3 - Wait 2, Flushing - Distance 1 - Wait 2, Philadelphia - Distance 0 - Wait 2, Atlanta - Distance 2 - Wait 2, Miami - Distance 1 - Wait 1]
+Starting run at 2023-03-19 14:52:54.468435
+2023-03-19 14:52:54.468509: SOLUTION FOUND - Traversals = 5, Comparisons = 32
+[Miami - Distance 3 - Wait 2, Atlanta - Distance 1 - Wait 2, Flushing - Distance 2 - Wait 2, Philadelphia - Distance 0 - Wait 1, Washington - Distance 0 - Wait 3]
 Home - Austin - 3 days
 TOTAL - 19
-2022-08-28 18:17:36.631004
+2023-03-19 14:52:54.468639
 Total traversals - 40
-Total comparisons - 190
+Total comparisons - 180

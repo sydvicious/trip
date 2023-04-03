@@ -1,16 +1,12 @@
-Starting run at 2022-08-28 18:15:28.408471
-2022-08-28 18:15:28.408554: SOLUTION FOUND - Traversals = 8, Comparisons = 92
-[Miami - Distance 3 - Wait 2, Atlanta - Distance 1 - Wait 2, St. Petersburg - Distance 1 - Wait 2, Boston - Distance 3 - Wait 2, Philadelphia - Distance 1 - Wait 5, Toronto - Distance 1 - Wait 3, New York - Distance 1 - Wait 6, BWI - Distance 1 - Wait 6]
-Home - Austin - 3 days
-TOTAL - 43
-2022-08-28 18:15:28.408621: SOLUTION FOUND - Traversals = 15, Comparisons = 111
-[Miami - Distance 3 - Wait 2, Atlanta - Distance 1 - Wait 2, St. Petersburg - Distance 1 - Wait 2, Boston - Distance 3 - Wait 2, BWI - Distance 1 - Wait 6, Philadelphia - Distance 0 - Wait 2, Toronto - Distance 1 - Wait 2, New York - Distance 1 - Wait 4]
-Home - Austin - 3 days
-TOTAL - 36
-2022-08-28 18:15:28.408744: SOLUTION FOUND - Traversals = 48, Comparisons = 228
-[Miami - Distance 3 - Wait 2, Atlanta - Distance 1 - Wait 2, St. Petersburg - Distance 1 - Wait 2, BWI - Distance 2 - Wait 3, Boston - Distance 1 - Wait 2, Philadelphia - Distance 1 - Wait 2, New York - Distance 0 - Wait 5, Toronto - Distance 1 - Wait 2]
+Starting run at 2023-03-19 14:54:43.287873
+2023-03-19 14:54:43.287940: SOLUTION FOUND - Traversals = 8, Comparisons = 95
+[Boston - Distance 4 - Wait 1, New York - Distance 0 - Wait 3, Philadelphia - Distance 0 - Wait 2, Atlanta - Distance 2 - Wait 1, Toronto - Distance 2 - Wait 1, Miami - Distance 3 - Wait 1, St. Petersburg - Distance 0 - Wait 3, BWI - Distance 2 - Wait 5]
 Home - Austin - 3 days
 TOTAL - 33
-2022-08-28 18:15:28.423291
-Total traversals - 3242
-Total comparisons - 20949
+2023-03-19 14:54:43.288158: SOLUTION FOUND - Traversals = 92, Comparisons = 397
+[Boston - Distance 4 - Wait 1, New York - Distance 0 - Wait 3, Atlanta - Distance 2 - Wait 1, St. Petersburg - Distance 1 - Wait 1, Miami - Distance 0 - Wait 3, BWI - Distance 2 - Wait 5, Philadelphia - Distance 0 - Wait 2, Toronto - Distance 1 - Wait 1]
+Home - Austin - 3 days
+TOTAL - 30
+2023-03-19 14:54:43.294032
+Total traversals - 2662
+Total comparisons - 13971

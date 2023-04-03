@@ -1,16 +1,16 @@
-Starting run at 2022-08-28 18:16:03.704417
-2022-08-28 18:16:03.704505: SOLUTION FOUND - Traversals = 9, Comparisons = 120
-[Kansas City - Distance 1 - Wait 2, St. Louis - Distance 0 - Wait 2, Minneapolis - Distance 1 - Wait 2, Milwaukee - Distance 1 - Wait 1, Pittsburgh - Distance 1 - Wait 1, Cleveland - Distance 0 - Wait 2, Detroit - Distance 0 - Wait 2, Cincinnati - Distance 1 - Wait 2, Chicago - Distance 1 - Wait 9]
-Home - Austin - 2 days
-TOTAL - 31
-2022-08-28 18:16:03.704552: SOLUTION FOUND - Traversals = 10, Comparisons = 121
-[Kansas City - Distance 1 - Wait 2, St. Louis - Distance 0 - Wait 2, Minneapolis - Distance 1 - Wait 2, Milwaukee - Distance 1 - Wait 1, Pittsburgh - Distance 1 - Wait 1, Cleveland - Distance 0 - Wait 2, Detroit - Distance 0 - Wait 2, Chicago - Distance 0 - Wait 6, Cincinnati - Distance 1 - Wait 3]
+Starting run at 2023-03-19 14:54:08.318186
+2023-03-19 14:54:08.318275: SOLUTION FOUND - Traversals = 9, Comparisons = 123
+[Kansas City - Distance 1 - Wait 2, Cincinnati - Distance 1 - Wait 1, Detroit - Distance 1 - Wait 2, Cleveland - Distance 0 - Wait 2, Pittsburgh - Distance 0 - Wait 2, St. Louis - Distance 1 - Wait 2, Chicago - Distance 1 - Wait 6, Milwaukee - Distance 0 - Wait 1, Minneapolis - Distance 1 - Wait 2]
 Home - Austin - 2 days
 TOTAL - 28
-2022-08-28 18:16:03.704571: SOLUTION FOUND - Traversals = 12, Comparisons = 125
-[Kansas City - Distance 1 - Wait 2, St. Louis - Distance 0 - Wait 2, Minneapolis - Distance 1 - Wait 2, Milwaukee - Distance 1 - Wait 1, Pittsburgh - Distance 1 - Wait 1, Cleveland - Distance 0 - Wait 2, Cincinnati - Distance 0 - Wait 2, Detroit - Distance 1 - Wait 2, Chicago - Distance 0 - Wait 3]
+2023-03-19 14:54:08.318526: SOLUTION FOUND - Traversals = 98, Comparisons = 554
+[Kansas City - Distance 1 - Wait 2, Cincinnati - Distance 1 - Wait 1, Detroit - Distance 1 - Wait 2, Milwaukee - Distance 1 - Wait 1, Cleveland - Distance 1 - Wait 1, Pittsburgh - Distance 0 - Wait 1, St. Louis - Distance 1 - Wait 1, Chicago - Distance 1 - Wait 6, Minneapolis - Distance 1 - Wait 1]
+Home - Austin - 2 days
+TOTAL - 26
+2023-03-19 14:54:08.318705: SOLUTION FOUND - Traversals = 190, Comparisons = 895
+[Kansas City - Distance 1 - Wait 2, Cincinnati - Distance 1 - Wait 1, Minneapolis - Distance 1 - Wait 2, Milwaukee - Distance 1 - Wait 1, Cleveland - Distance 1 - Wait 1, Pittsburgh - Distance 0 - Wait 1, St. Louis - Distance 1 - Wait 1, Detroit - Distance 1 - Wait 2, Chicago - Distance 0 - Wait 4]
 Home - Austin - 2 days
 TOTAL - 24
-2022-08-28 18:16:03.730921
-Total traversals - 5481
-Total comparisons - 40336
+2023-03-19 14:54:08.337465
+Total traversals - 7091
+Total comparisons - 51213
