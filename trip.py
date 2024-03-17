@@ -13,7 +13,7 @@ from operator import attrgetter
 
 def valid_date(s):
     try:
-        return datetime.strptime(s, "%Y-%m-%d")
+        return datetime.datetime.strptime(s, "%Y-%m-%d")
     except ValueError:
         msg = "Note a valide date: '{0}'.".format(s)
         raise argparse.ArgumentTypeError(msg)
@@ -26,9 +26,9 @@ parser.add_argument('--start-day', dest='start_day', type=int, default=0)
 parser.add_argument('--start-date', dest='start_date', type=valid_date, default=None)
 parser.add_argument('--log-comparisons', dest='log_comparisons', type=bool, default=False)
 parser.add_argument('--log-traversals', dest='log_traversals', type=bool, default=False)
-parser.add_argument('--destinations', dest='dest_file', default='destinations.txt', type=argparse.FileType('rU'))
-parser.add_argument('--schedule-file', dest='schedule_file', default='schedule.txt', type=argparse.FileType('rU'))
-parser.add_argument('--distance-file', dest='distances_file', default='distances.txt', type=argparse.FileType('rU'))
+parser.add_argument('--destinations', dest='dest_file', default='destinations.txt', type=argparse.FileType('r'))
+parser.add_argument('--schedule-file', dest='schedule_file', default='schedule.txt', type=argparse.FileType('r'))
+parser.add_argument('--distance-file', dest='distances_file', default='distances.txt', type=argparse.FileType('r'))
 parser.add_argument('--traverse-style', dest='traverse_style', choices=['depth', 'sorted_depth', 'breadth', 'parallel'],
                     default='sorted_depth')
 parser.add_argument('--queue-size', dest='queue_size', default=100000)
