@@ -1,0 +1,16 @@
+Starting run at 2023-03-19 14:51:52.149198
+2023-03-19 14:51:52.149246: SOLUTION FOUND - Traversals = 5, Comparisons = 34
+[Chicago - Wrigley - Distance 2 - Wait 2, St. Louis - Distance 1 - Wait 1, Pittsburgh - Distance 1 - Wait 2, Cincinnati - Distance 1 - Wait 5, Milwaukee - Distance 1 - Wait 7]
+Home - Austin - 2 days
+TOTAL - 25
+2023-03-19 14:51:52.149300: SOLUTION FOUND - Traversals = 7, Comparisons = 38
+[Chicago - Wrigley - Distance 2 - Wait 2, St. Louis - Distance 1 - Wait 1, Milwaukee - Distance 1 - Wait 2, Pittsburgh - Distance 1 - Wait 2, Cincinnati - Distance 1 - Wait 2]
+Home - Austin - 2 days
+TOTAL - 17
+2023-03-19 14:51:52.149342: SOLUTION FOUND - Traversals = 20, Comparisons = 88
+[Cincinnati - Distance 2 - Wait 2, St. Louis - Distance 1 - Wait 1, Chicago - Wrigley - Distance 1 - Wait 2, Milwaukee - Distance 0 - Wait 1, Pittsburgh - Distance 1 - Wait 1]
+Home - Austin - 3 days
+TOTAL - 15
+2023-03-19 14:51:52.149417
+Total traversals - 52
+Total comparisons - 211

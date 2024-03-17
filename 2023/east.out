@@ -1,0 +1,12 @@
+Starting run at 2023-03-19 14:54:43.287873
+2023-03-19 14:54:43.287940: SOLUTION FOUND - Traversals = 8, Comparisons = 95
+[Boston - Distance 4 - Wait 1, New York - Distance 0 - Wait 3, Philadelphia - Distance 0 - Wait 2, Atlanta - Distance 2 - Wait 1, Toronto - Distance 2 - Wait 1, Miami - Distance 3 - Wait 1, St. Petersburg - Distance 0 - Wait 3, BWI - Distance 2 - Wait 5]
+Home - Austin - 3 days
+TOTAL - 33
+2023-03-19 14:54:43.288158: SOLUTION FOUND - Traversals = 92, Comparisons = 397
+[Boston - Distance 4 - Wait 1, New York - Distance 0 - Wait 3, Atlanta - Distance 2 - Wait 1, St. Petersburg - Distance 1 - Wait 1, Miami - Distance 0 - Wait 3, BWI - Distance 2 - Wait 5, Philadelphia - Distance 0 - Wait 2, Toronto - Distance 1 - Wait 1]
+Home - Austin - 3 days
+TOTAL - 30
+2023-03-19 14:54:43.294032
+Total traversals - 2662
+Total comparisons - 13971

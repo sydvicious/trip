@@ -1,0 +1,12 @@
+Starting run at 2023-04-08 13:53:02.939737
+2023-04-08 14:40:10.557407: SOLUTION FOUND - Traversals = 35790391, Comparisons = 1163349691
+[Houston - Distance 0 - Wait 1, San Diego - Distance 3 - Wait 1, Los Angeles - Distance 0 - Wait 1, Phoenix - Distance 1 - Wait 1, Toronto - Distance 5 - Wait 1, Detroit - Distance 0 - Wait 2, Kansas City - Distance 1 - Wait 2, St. Louis - Distance 0 - Wait 1, Washington - Distance 2 - Wait 8, The Bronx - Distance 1 - Wait 2, Atlanta - Distance 2 - Wait 2, San Francisco - Distance 5 - Wait 5, Chicago - U.S. Cellular - Distance 4 - Wait 2, Cincinnati - Distance 1 - Wait 1, Oakland - Distance 4 - Wait 2, Baltimore - Distance 6 - Wait 5, Flushing - Distance 0 - Wait 4, Philadelphia - Distance 0 - Wait 7, St. Petersburg - Distance 2 - Wait 1, Miami - Distance 0 - Wait 2, Pittsburgh - Distance 2 - Wait 1, Milwaukee - Distance 1 - Wait 4, Boston - Distance 2 - Wait 1, Anaheim - Distance 6 - Wait 2, Seattle - Distance 2 - Wait 1, Arlington - Distance 4 - Wait 2, Minneapolis - Distance 2 - Wait 10, Denver - Distance 2 - Wait 8, Cleveland - Distance 3 - Wait 1, Chicago - Wrigley - Distance 1 - Wait 9]
+Home - Austin - 2 days
+TOTAL - 154
+2023-04-08 14:40:10.558055: SOLUTION FOUND - Traversals = 35790399, Comparisons = 1163349805
+[Houston - Distance 0 - Wait 1, San Diego - Distance 3 - Wait 1, Los Angeles - Distance 0 - Wait 1, Denver - Distance 2 - Wait 1, Chicago - Wrigley - Distance 2 - Wait 1, Detroit - Distance 1 - Wait 3, Kansas City - Distance 1 - Wait 2, St. Louis - Distance 0 - Wait 1, Washington - Distance 2 - Wait 8, The Bronx - Distance 1 - Wait 2, Phoenix - Distance 5 - Wait 2, Atlanta - Distance 4 - Wait 7, San Francisco - Distance 5 - Wait 5, Chicago - U.S. Cellular - Distance 4 - Wait 2, Cincinnati - Distance 1 - Wait 1, Toronto - Distance 1 - Wait 1, Oakland - Distance 5 - Wait 1, Baltimore - Distance 6 - Wait 3, Flushing - Distance 0 - Wait 3, Philadelphia - Distance 0 - Wait 4, St. Petersburg - Distance 2 - Wait 2, Miami - Distance 0 - Wait 1, Pittsburgh - Distance 2 - Wait 7, Milwaukee - Distance 1 - Wait 6, Boston - Distance 2 - Wait 2, Anaheim - Distance 6 - Wait 3, Seattle - Distance 2 - Wait 2, Arlington - Distance 4 - Wait 3, Minneapolis - Distance 2 - Wait 2, Cleveland - Distance 2 - Wait 2]
+Home - Austin - 2 days
+TOTAL - 148
+2023-04-08 14:41:59.794940
+Total traversals - 35819206
+Total comparisons - 1190785202

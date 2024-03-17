@@ -1,0 +1,20 @@
+Starting run at 2023-03-19 14:53:30.080653
+2023-03-19 14:53:30.080721: SOLUTION FOUND - Traversals = 8, Comparisons = 89
+[Houston - Distance 0 - Wait 1, Arlington - Distance 0 - Wait 2, Denver - Distance 2 - Wait 3, Phoenix - Distance 2 - Wait 2, San Diego - Distance 1 - Wait 2, Seattle - Distance 3 - Wait 1, Bay Area - Distance 2 - Wait 9, Southern California - Distance 1 - Wait 6]
+Home - Austin - 3 days
+TOTAL - 40
+2023-03-19 14:53:30.080786: SOLUTION FOUND - Traversals = 19, Comparisons = 114
+[Houston - Distance 0 - Wait 1, Arlington - Distance 0 - Wait 2, Denver - Distance 2 - Wait 3, Phoenix - Distance 2 - Wait 2, Seattle - Distance 3 - Wait 1, Bay Area - Distance 2 - Wait 4, Southern California - Distance 1 - Wait 7, San Diego - Distance 0 - Wait 2]
+Home - Austin - 3 days
+TOTAL - 35
+2023-03-19 14:53:30.081057: SOLUTION FOUND - Traversals = 161, Comparisons = 589
+[Houston - Distance 0 - Wait 1, Arlington - Distance 0 - Wait 2, Phoenix - Distance 2 - Wait 3, Southern California - Distance 1 - Wait 7, San Diego - Distance 0 - Wait 1, Denver - Distance 2 - Wait 1, Seattle - Distance 2 - Wait 1, Bay Area - Distance 2 - Wait 5]
+Home - Austin - 4 days
+TOTAL - 34
+2023-03-19 14:53:30.081570: SOLUTION FOUND - Traversals = 422, Comparisons = 1587
+[Houston - Distance 0 - Wait 1, San Diego - Distance 3 - Wait 1, Southern California - Distance 0 - Wait 4, Denver - Distance 3 - Wait 1, Seattle - Distance 2 - Wait 1, Bay Area - Distance 2 - Wait 4, Phoenix - Distance 1 - Wait 1, Arlington - Distance 2 - Wait 3]
+Home - Austin - 0 days
+TOTAL - 29
+2023-03-19 14:53:30.085142
+Total traversals - 1965
+Total comparisons - 9617

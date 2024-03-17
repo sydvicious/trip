@@ -1,0 +1,12 @@
+Starting run at 2023-03-19 14:55:09.714173
+2023-03-19 14:55:09.714325: SOLUTION FOUND - Traversals = 15, Comparisons = 397
+[Houston - Distance 0 - Wait 1, Arlington - Distance 0 - Wait 2, Kansas City - Distance 1 - Wait 1, Minneapolis - Distance 1 - Wait 2, Anaheim - Distance 3 - Wait 1, Seattle - Distance 2 - Wait 2, Oakland - Distance 2 - Wait 1, St. Petersburg - Distance 6 - Wait 1, Detroit - Distance 2 - Wait 1, Toronto - Distance 0 - Wait 1, Boston - Distance 1 - Wait 2, The Bronx - Distance 0 - Wait 1, Cleveland - Distance 1 - Wait 2, Baltimore - Distance 1 - Wait 2, Chicago - U.S. Cellular - Distance 1 - Wait 3]
+Home - Austin - 2 days
+TOTAL - 46
+2023-03-19 14:55:09.715228: SOLUTION FOUND - Traversals = 349, Comparisons = 2430
+[Houston - Distance 0 - Wait 1, Arlington - Distance 0 - Wait 2, Kansas City - Distance 1 - Wait 1, Minneapolis - Distance 1 - Wait 2, Anaheim - Distance 3 - Wait 1, Seattle - Distance 2 - Wait 2, Oakland - Distance 2 - Wait 1, Baltimore - Distance 6 - Wait 1, Toronto - Distance 1 - Wait 1, Detroit - Distance 0 - Wait 1, Chicago - U.S. Cellular - Distance 0 - Wait 1, Boston - Distance 2 - Wait 1, The Bronx - Distance 0 - Wait 1, St. Petersburg - Distance 2 - Wait 1, Cleveland - Distance 2 - Wait 1]
+Home - Austin - 2 days
+TOTAL - 42
+2023-03-19 14:55:13.786015
+Total traversals - 2004380
+Total comparisons - 7469546

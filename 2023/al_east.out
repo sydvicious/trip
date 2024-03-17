@@ -1,0 +1,12 @@
+Starting run at 2023-03-19 14:50:12.225900
+2023-03-19 14:50:12.225946: SOLUTION FOUND - Traversals = 5, Comparisons = 34
+[Boston - Distance 4 - Wait 1, The Bronx - Distance 0 - Wait 1, Baltimore - Distance 0 - Wait 2, St. Petersburg - Distance 2 - Wait 2, Toronto - Distance 3 - Wait 1]
+Home - Austin - 3 days
+TOTAL - 19
+2023-03-19 14:50:12.226007: SOLUTION FOUND - Traversals = 8, Comparisons = 39
+[Boston - Distance 4 - Wait 1, The Bronx - Distance 0 - Wait 1, St. Petersburg - Distance 2 - Wait 1, Baltimore - Distance 2 - Wait 1, Toronto - Distance 1 - Wait 1]
+Home - Austin - 3 days
+TOTAL - 17
+2023-03-19 14:50:12.226074
+Total traversals - 36
+Total comparisons - 127
