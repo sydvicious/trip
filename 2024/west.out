@@ -1,0 +1,24 @@
+Starting run at 2024-03-18 13:00:20.203606
+2024-03-18 13:00:20.203664: SOLUTION FOUND - Traversals = 8, Comparisons = 86
+[Houston - Distance 0 - Wait 1, Arlington - Distance 0 - Wait 2, Denver - Distance 2 - Wait 3, Phoenix - Distance 2 - Wait 2, San Diego - Distance 1 - Wait 2, Seattle - Distance 3 - Wait 1, Bay Area - Distance 2 - Wait 9, Southern California - Distance 1 - Wait 6]
+Home - Austin - 3 days
+TOTAL - 40
+2024-03-18 13:00:20.203755: SOLUTION FOUND - Traversals = 19, Comparisons = 109
+[Houston - Distance 0 - Wait 1, Arlington - Distance 0 - Wait 2, Denver - Distance 2 - Wait 3, Phoenix - Distance 2 - Wait 2, Seattle - Distance 3 - Wait 1, Bay Area - Distance 2 - Wait 4, Southern California - Distance 1 - Wait 7, San Diego - Distance 0 - Wait 2]
+Home - Austin - 3 days
+TOTAL - 35
+2024-03-18 13:00:20.204146: SOLUTION FOUND - Traversals = 199, Comparisons = 695
+[Houston - Distance 0 - Wait 1, Arlington - Distance 0 - Wait 2, Phoenix - Distance 2 - Wait 3, Southern California - Distance 1 - Wait 7, San Diego - Distance 0 - Wait 1, Denver - Distance 2 - Wait 1, Seattle - Distance 2 - Wait 1, Bay Area - Distance 2 - Wait 5]
+Home - Austin - 4 days
+TOTAL - 34
+2024-03-18 13:00:20.204677: SOLUTION FOUND - Traversals = 432, Comparisons = 1566
+[Houston - Distance 0 - Wait 1, San Diego - Distance 3 - Wait 1, Denver - Distance 2 - Wait 2, Arlington - Distance 2 - Wait 1, Seattle - Distance 4 - Wait 1, Bay Area - Distance 2 - Wait 3, Phoenix - Distance 1 - Wait 1, Southern California - Distance 1 - Wait 5]
+Home - Austin - 3 days
+TOTAL - 33
+2024-03-18 13:00:20.204845: SOLUTION FOUND - Traversals = 505, Comparisons = 1822
+[Houston - Distance 0 - Wait 1, San Diego - Distance 3 - Wait 1, Southern California - Distance 0 - Wait 4, Denver - Distance 3 - Wait 1, Seattle - Distance 2 - Wait 1, Bay Area - Distance 2 - Wait 4, Phoenix - Distance 1 - Wait 1, Arlington - Distance 2 - Wait 3]
+Home - Austin - 0 days
+TOTAL - 29
+2024-03-18 13:00:20.210770
+Total traversals - 2199
+Total comparisons - 9783

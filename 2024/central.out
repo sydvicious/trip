@@ -1,0 +1,8 @@
+Starting run at 2024-03-18 12:59:47.418961
+2024-03-18 12:59:47.419037: SOLUTION FOUND - Traversals = 9, Comparisons = 121
+[Kansas City - Distance 1 - Wait 2, St. Louis - Distance 0 - Wait 2, Minneapolis - Distance 1 - Wait 2, Milwaukee - Distance 1 - Wait 1, Pittsburgh - Distance 1 - Wait 1, Cleveland - Distance 0 - Wait 1, Cincinnati - Distance 0 - Wait 2, Detroit - Distance 1 - Wait 2, Chicago - Distance 0 - Wait 4]
+Home - Austin - 2 days
+TOTAL - 24
+2024-03-18 12:59:47.443176
+Total traversals - 6989
+Total comparisons - 50330
