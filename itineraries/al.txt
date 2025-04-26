@@ -1,6 +1,6 @@
 Baltimore
 Boston
-St. Petersburg
+Tampa
 The Bronx
 Toronto
 Chicago - U.S. Cellular
@@ -10,6 +10,6 @@ Kansas City
 Minneapolis
 Anaheim
 Seattle
-Oakland
+Sacramento
 Arlington
 Houston

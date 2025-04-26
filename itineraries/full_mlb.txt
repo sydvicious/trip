@@ -9,14 +9,14 @@ Cincinnati
 Cleveland
 Denver
 Detroit
-Flushing
+Queens
 Houston
 Kansas City
 Los Angeles
 Miami
 Milwaukee
 Minneapolis
-Oakland
+Sacramento
 Philadelphia
 Phoenix
 Pittsburgh
@@ -24,7 +24,7 @@ San Diego
 San Francisco
 Seattle
 St. Louis
-St. Petersburg
+Tampa
 The Bronx
 Toronto
 Washington

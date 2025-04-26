@@ -1,8 +1,10 @@
 Atlanta
-BWI
+Baltimore
 Boston
-New York
+The Bronx
+Queens
 Miami
 Philadelphia
-St. Petersburg
+Tampa
 Toronto
+Washington
