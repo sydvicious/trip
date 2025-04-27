@@ -1,4 +1,4 @@
-39	Austin	Sacramento	San Francisco	Los Angeles	Anaheim	San Diego	Phoenix	Denver	Kansas City	Arlington	Milwaukee	Chicago - Wrigley	Chicago - U.S. Cellular	Cleveland	Baltimore	Washington	Detroit	Cincinnati	Minneapolis	Boston	Pittsburgh	St. Louis	Atlanta	Miami	Tampa	Houston	Philadelphia	Queens	The Bronx	Toronto	Seattle	Dyersville	Mt. Pleasant	Durham	Cooperstown	Disneyworld	Bowling Green	Rickwood Field
+38	Austin	Sacramento	San Francisco	Los Angeles	Anaheim	San Diego	Phoenix	Denver	Kansas City	Arlington	Milwaukee	Chicago - Wrigley	Chicago - U.S. Cellular	Cleveland	Baltimore	Washington	Detroit	Cincinnati	Minneapolis	Boston	Pittsburgh	St. Louis	Atlanta	Miami	Tampa	Houston	Philadelphia	Queens	The Bronx	Toronto	Seattle	Dyersville	Mt. Pleasant	Durham	Cooperstown	Disneyworld	Bowling Green	Rickwood Field
 Austin	0	24	24	19	18	17	13	12	11	3	19	17	17	22	24	24	21	18	17	30	22	13	15	21	18	3	25	27	27	25	32	16	22	21	28	18	14	12
 Sacramento	28	0	2	6	6	7	11	18	27	27	32	32	31	37	43	43	36	36	29	47	39	30	39	47	44	30	44	44	44	40	12	29	35	43	44	44	35	36
 San Francisco	29	2	0	6	7	8	12	20	28	27	33	33	33	38	44	44	37	37	31	47	40	32	39	47	44	30	45	45	45	41	13	31	36	44	45	44	36	36
@@ -37,3 +37,4 @@ Cooperstown	25	37	39	38	38	38	33	23	17	23	12	11	10	6	5	6	8	10	16	4	7	13	15	21	19
 Disneyworld	16	38	38	33	33	32	27	24	17	15	17	16	16	18	13	13	17	13	22	19	15	13	7	3	1	13	15	16	16	20	42	18	19	9	18	0	10	8
 Bowling Green	14	30	32	28	28	28	23	16	8	11	7	6	6	8	11	12	9	4	12	17	8	5	6	15	12	13	13	14	14	12	33	9	8	10	15	12	0	4
 Rickwood Field	12	31	31	27	27	26	22	18	11	9	11	10	10	11	12	12	12	8	16	18	12	7	3	13	10	10	14	15	15	15	35	12	13	9	17	9	4	0
+
