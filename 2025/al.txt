@@ -1,0 +1,28 @@
+Starting run at 2025-04-27 16:55:26.297629
+2025-04-27 16:55:26.297757: SOLUTION FOUND - Traversals = 15, Comparisons = 392
+[Houston - Distance 0 - Wait 2, Arlington - Distance 0 - Wait 2, Minneapolis - Distance 2 - Wait 2, Detroit - Distance 1 - Wait 2, Boston - Distance 1 - Wait 1, Tampa - Distance 2 - Wait 1, Toronto - Distance 2 - Wait 1, Baltimore - Distance 1 - Wait 1, Cleveland - Distance 1 - Wait 4, Kansas City - Distance 1 - Wait 1, The Bronx - Distance 2 - Wait 2, Chicago - U.S. Cellular - Distance 1 - Wait 1, Anaheim - Distance 3 - Wait 1, Sacramento - Distance 1 - Wait 2, Seattle - Distance 1 - Wait 2]
+Home - Austin - 4 days
+TOTAL - 48
+2025-04-27 16:55:26.299849: SOLUTION FOUND - Traversals = 1085, Comparisons = 3828
+[Houston - Distance 0 - Wait 2, Arlington - Distance 0 - Wait 2, Minneapolis - Distance 2 - Wait 2, Detroit - Distance 1 - Wait 2, Boston - Distance 1 - Wait 1, Tampa - Distance 2 - Wait 1, Toronto - Distance 2 - Wait 1, Anaheim - Distance 4 - Wait 1, Sacramento - Distance 1 - Wait 2, Seattle - Distance 1 - Wait 2, Chicago - U.S. Cellular - Distance 4 - Wait 1, Baltimore - Distance 1 - Wait 1, The Bronx - Distance 0 - Wait 2, Kansas City - Distance 2 - Wait 1, Cleveland - Distance 1 - Wait 1]
+Home - Austin - 2 days
+TOTAL - 46
+2025-04-27 16:55:26.472687: SOLUTION FOUND - Traversals = 70024, Comparisons = 249300
+[Houston - Distance 0 - Wait 2, Arlington - Distance 0 - Wait 2, Minneapolis - Distance 2 - Wait 2, Detroit - Distance 1 - Wait 2, Tampa - Distance 2 - Wait 1, Baltimore - Distance 2 - Wait 2, The Bronx - Distance 0 - Wait 1, Chicago - U.S. Cellular - Distance 1 - Wait 1, Toronto - Distance 1 - Wait 1, Cleveland - Distance 1 - Wait 2, Boston - Distance 1 - Wait 1, Seattle - Distance 5 - Wait 1, Anaheim - Distance 2 - Wait 1, Sacramento - Distance 1 - Wait 2, Kansas City - Distance 3 - Wait 1]
+Home - Austin - 1 days
+TOTAL - 45
+2025-04-27 16:55:26.545427: SOLUTION FOUND - Traversals = 103043, Comparisons = 366383
+[Houston - Distance 0 - Wait 2, Arlington - Distance 0 - Wait 2, Minneapolis - Distance 2 - Wait 2, Kansas City - Distance 1 - Wait 2, Cleveland - Distance 1 - Wait 1, Detroit - Distance 0 - Wait 1, Baltimore - Distance 1 - Wait 1, The Bronx - Distance 0 - Wait 2, Chicago - U.S. Cellular - Distance 1 - Wait 1, Anaheim - Distance 3 - Wait 1, Sacramento - Distance 1 - Wait 2, Seattle - Distance 1 - Wait 2, Toronto - Distance 5 - Wait 1, Boston - Distance 1 - Wait 2, Tampa - Distance 2 - Wait 1]
+Home - Austin - 2 days
+TOTAL - 44
+2025-04-27 16:55:26.602527: SOLUTION FOUND - Traversals = 130566, Comparisons = 458567
+[Houston - Distance 0 - Wait 2, Arlington - Distance 0 - Wait 2, Minneapolis - Distance 2 - Wait 2, Kansas City - Distance 1 - Wait 2, Tampa - Distance 2 - Wait 1, Baltimore - Distance 2 - Wait 2, The Bronx - Distance 0 - Wait 1, Chicago - U.S. Cellular - Distance 1 - Wait 1, Toronto - Distance 1 - Wait 1, Detroit - Distance 0 - Wait 2, Cleveland - Distance 0 - Wait 1, Boston - Distance 1 - Wait 1, Seattle - Distance 5 - Wait 1, Anaheim - Distance 2 - Wait 1, Sacramento - Distance 1 - Wait 2]
+Home - Austin - 3 days
+TOTAL - 43
+2025-04-27 16:55:36.112239: SOLUTION FOUND - Traversals = 3237882, Comparisons = 13335425
+[Houston - Distance 0 - Wait 2, The Bronx - Distance 3 - Wait 1, Baltimore - Distance 0 - Wait 1, Boston - Distance 1 - Wait 1, Detroit - Distance 1 - Wait 2, Cleveland - Distance 0 - Wait 1, Tampa - Distance 2 - Wait 1, Toronto - Distance 2 - Wait 1, Chicago - U.S. Cellular - Distance 1 - Wait 1, Arlington - Distance 2 - Wait 1, Minneapolis - Distance 2 - Wait 1, Sacramento - Distance 3 - Wait 2, Seattle - Distance 1 - Wait 1, Anaheim - Distance 2 - Wait 1, Kansas City - Distance 3 - Wait 1]
+Home - Austin - 1 days
+TOTAL - 42
+2025-04-27 16:56:23.450264
+Total traversals - 20049013
+Total comparisons - 76967462

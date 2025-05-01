@@ -1,0 +1,20 @@
+Starting run at 2025-04-27 16:52:00.310956
+2025-04-27 16:52:00.311034: SOLUTION FOUND - Traversals = 10, Comparisons = 153
+[Houston - Distance 0 - Wait 2, Arlington - Distance 0 - Wait 2, Anaheim - Distance 2 - Wait 2, San Francisco - Distance 1 - Wait 2, Phoenix - Distance 1 - Wait 1, Los Angeles - Distance 1 - Wait 2, San Diego - Distance 0 - Wait 2, Denver - Distance 2 - Wait 2, Sacramento - Distance 2 - Wait 3, Seattle - Distance 1 - Wait 2]
+Home - Austin - 4 days
+TOTAL - 34
+2025-04-27 16:52:00.311904: SOLUTION FOUND - Traversals = 401, Comparisons = 1812
+[Houston - Distance 0 - Wait 2, Arlington - Distance 0 - Wait 2, Anaheim - Distance 2 - Wait 2, Seattle - Distance 2 - Wait 2, Los Angeles - Distance 2 - Wait 2, San Diego - Distance 0 - Wait 2, Denver - Distance 2 - Wait 2, San Francisco - Distance 2 - Wait 2, Sacramento - Distance 0 - Wait 2, Phoenix - Distance 1 - Wait 1]
+Home - Austin - 2 days
+TOTAL - 32
+2025-04-27 16:52:00.313721: SOLUTION FOUND - Traversals = 1144, Comparisons = 6212
+[Houston - Distance 0 - Wait 2, Arlington - Distance 0 - Wait 2, Denver - Distance 1 - Wait 4, Seattle - Distance 2 - Wait 1, Phoenix - Distance 3 - Wait 1, Los Angeles - Distance 1 - Wait 2, San Diego - Distance 0 - Wait 2, Anaheim - Distance 0 - Wait 2, San Francisco - Distance 1 - Wait 2, Sacramento - Distance 0 - Wait 2]
+Home - Austin - 3 days
+TOTAL - 31
+2025-04-27 16:52:00.313843: SOLUTION FOUND - Traversals = 1194, Comparisons = 6460
+[Houston - Distance 0 - Wait 2, Arlington - Distance 0 - Wait 2, Denver - Distance 1 - Wait 4, Seattle - Distance 2 - Wait 1, Sacramento - Distance 2 - Wait 2, Los Angeles - Distance 1 - Wait 2, San Diego - Distance 0 - Wait 2, Anaheim - Distance 0 - Wait 2, San Francisco - Distance 1 - Wait 2, Phoenix - Distance 1 - Wait 1]
+Home - Austin - 2 days
+TOTAL - 30
+2025-04-27 16:52:00.371525
+Total traversals - 22512
+Total comparisons - 117855

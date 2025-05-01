@@ -1,0 +1,12 @@
+Starting run at 2025-04-27 16:49:13.330167
+2025-04-27 16:49:13.330217: SOLUTION FOUND - Traversals = 5, Comparisons = 33
+[Houston - Distance 0 - Wait 2, Arlington - Distance 0 - Wait 2, Anaheim - Distance 2 - Wait 2, Seattle - Distance 2 - Wait 2, Sacramento - Distance 2 - Wait 2]
+Home - Austin - 3 days
+TOTAL - 19
+2025-04-27 16:49:13.330315: SOLUTION FOUND - Traversals = 21, Comparisons = 97
+[Arlington - Distance 0 - Wait 2, Sacramento - Distance 3 - Wait 2, Anaheim - Distance 1 - Wait 1, Seattle - Distance 2 - Wait 1, Houston - Distance 4 - Wait 1]
+Home - Austin - 0 days
+TOTAL - 17
+2025-04-27 16:49:13.330359
+Total traversals - 40
+Total comparisons - 144

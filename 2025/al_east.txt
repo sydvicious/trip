@@ -1,0 +1,16 @@
+Starting run at 2025-04-27 16:48:09.933497
+2025-04-27 16:48:09.933552: SOLUTION FOUND - Traversals = 5, Comparisons = 34
+[Tampa - Distance 2 - Wait 2, Baltimore - Distance 2 - Wait 1, Boston - Distance 1 - Wait 1, The Bronx - Distance 0 - Wait 7, Toronto - Distance 1 - Wait 2]
+Home - Austin - 3 days
+TOTAL - 22
+2025-04-27 16:48:09.933796: SOLUTION FOUND - Traversals = 32, Comparisons = 128
+[Toronto - Distance 3 - Wait 2, Baltimore - Distance 1 - Wait 1, Boston - Distance 1 - Wait 1, Tampa - Distance 2 - Wait 2, The Bronx - Distance 2 - Wait 1]
+Home - Austin - 3 days
+TOTAL - 19
+2025-04-27 16:48:09.933824: SOLUTION FOUND - Traversals = 36, Comparisons = 142
+[Toronto - Distance 3 - Wait 2, The Bronx - Distance 1 - Wait 1, Baltimore - Distance 0 - Wait 2, Boston - Distance 1 - Wait 2, Tampa - Distance 2 - Wait 2]
+Home - Austin - 2 days
+TOTAL - 18
+2025-04-27 16:48:09.933872
+Total traversals - 53
+Total comparisons - 209

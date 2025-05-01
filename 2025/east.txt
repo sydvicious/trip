@@ -1,0 +1,8 @@
+Starting run at 2025-04-27 16:51:19.042438
+2025-04-27 16:51:19.042527: SOLUTION FOUND - Traversals = 10, Comparisons = 155
+[Tampa - Distance 2 - Wait 2, Miami - Distance 0 - Wait 2, Washington - Distance 2 - Wait 1, Philadelphia - Distance 0 - Wait 2, Queens - Distance 0 - Wait 1, Boston - Distance 0 - Wait 1, The Bronx - Distance 0 - Wait 3, Baltimore - Distance 0 - Wait 2, Toronto - Distance 1 - Wait 1, Atlanta - Distance 2 - Wait 1]
+Home - Austin - 2 days
+TOTAL - 25
+2025-04-27 16:51:19.113105
+Total traversals - 21805
+Total comparisons - 133974

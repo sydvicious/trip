@@ -1,0 +1,12 @@
+Starting run at 2025-04-27 16:53:55.395545
+2025-04-27 16:53:55.395622: SOLUTION FOUND - Traversals = 5, Comparisons = 32
+[Phoenix - Distance 2 - Wait 1, San Diego - Distance 1 - Wait 2, San Francisco - Distance 1 - Wait 2, Denver - Distance 2 - Wait 1, Los Angeles - Distance 2 - Wait 2]
+Home - Austin - 3 days
+TOTAL - 19
+2025-04-27 16:53:55.395733: SOLUTION FOUND - Traversals = 21, Comparisons = 89
+[San Diego - Distance 2 - Wait 2, Los Angeles - Distance 0 - Wait 2, San Francisco - Distance 1 - Wait 2, Denver - Distance 2 - Wait 1, Phoenix - Distance 1 - Wait 3]
+Home - Austin - 2 days
+TOTAL - 18
+2025-04-27 16:53:55.395833
+Total traversals - 52
+Total comparisons - 223

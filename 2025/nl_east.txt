@@ -1,0 +1,12 @@
+Starting run at 2025-04-27 16:53:23.663394
+2025-04-27 16:53:23.663451: SOLUTION FOUND - Traversals = 5, Comparisons = 30
+[Miami - Distance 3 - Wait 2, Atlanta - Distance 1 - Wait 3, Washington - Distance 1 - Wait 2, Philadelphia - Distance 0 - Wait 7, Queens - Distance 0 - Wait 3]
+Home - Austin - 3 days
+TOTAL - 25
+2025-04-27 16:53:23.663536: SOLUTION FOUND - Traversals = 19, Comparisons = 66
+[Miami - Distance 3 - Wait 2, Queens - Distance 2 - Wait 2, Philadelphia - Distance 0 - Wait 2, Washington - Distance 0 - Wait 1, Atlanta - Distance 1 - Wait 1]
+Home - Austin - 2 days
+TOTAL - 16
+2025-04-27 16:53:23.663613
+Total traversals - 49
+Total comparisons - 185

@@ -1,0 +1,8 @@
+Starting run at 2025-04-27 16:52:46.566803
+2025-04-27 16:52:46.566845: SOLUTION FOUND - Traversals = 5, Comparisons = 32
+[Cincinnati - Distance 2 - Wait 2, St. Louis - Distance 0 - Wait 1, Milwaukee - Distance 1 - Wait 2, Chicago - Wrigley - Distance 0 - Wait 2, Pittsburgh - Distance 1 - Wait 1]
+Home - Austin - 2 days
+TOTAL - 14
+2025-04-27 16:52:46.566963
+Total traversals - 35
+Total comparisons - 161
